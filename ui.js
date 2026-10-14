@@ -11,7 +11,7 @@
     var p = el.dataset.cd.split('-'), n = new Date(), t = new Date(+p[0], p[1] - 1, +p[2]), n0 = new Date(n.getFullYear(), n.getMonth(), n.getDate());
     var k = Math.round((t - n0) / 864e5), box = el.closest('.next');
     if (k < 0) { if (box) box.hidden = true; return; }
-    el.textContent += k === 0 ? ' · امروز' : k === 1 ? ' · فردا' : ' · ' + faN(k) + ' روز دیگر';
+    var cn = d.createElement('span'); cn.className = 'cdn'; cn.textContent = k === 0 ? 'امروز' : k === 1 ? 'فردا' : faN(k) + ' روز دیگر'; el.appendChild(cn);
   });
   var bar = d.createElement('div'); bar.className = 'rp'; bar.setAttribute('aria-hidden', 'true'); d.body.appendChild(bar);
   var up = d.createElement('button'); up.type = 'button'; up.className = 'up'; up.setAttribute('aria-label', 'بازگشت به بالا');

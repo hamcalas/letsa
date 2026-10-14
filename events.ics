@@ -6,34 +6,32 @@ METHOD:PUBLISH
 X-WR-CALNAME:خلاصه‌ی روزانه‌ی گروه‌های مدرسه
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
-UID:ace23d718d455f90781d@hamcalas.github.io
-DTSTAMP:20261014T093933Z
+UID:8dd2522c2e1ef8825390@hamcalas.github.io
+DTSTAMP:20261014T095039Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-SUMMARY:امتحان: ثبت‌نام آزمون تبدیل وضعیت اس
- تخدامی (پیمانی به رسمی آزمایشی) برای نیرو
- های واجد شرایط از ۱۶ مهر تا ۲۵ مهر در ساما
- نه hrtc.ir؛ آزمون در تاریخ ۱…
+SUMMARY:مهلت: ثبت‌نام آزمون تبدیل وضعیت استخ
+ دامی (پیمانی به رسمی آزمایشی) برای نیروها
+ ی واجد شرایط از ۱۶ مهر تا ۲۵ مهر در سامانه
+  hrtc
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-14/
 END:VEVENT
 BEGIN:VEVENT
-UID:4979b566abcf91651bd2@hamcalas.github.io
-DTSTAMP:20261014T093933Z
+UID:f20226e531b1d8526791@hamcalas.github.io
+DTSTAMP:20261014T095039Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-SUMMARY:امتحان: ثبت‌نام آزمون تبدیل وضعیت اس
- تخدامی (پیمانی به رسمی آزمایشی) برای نیرو
- های واجد شرایط از ۱۶ مهر تا ۲۵ مهر در ساما
- نه hrtc.ir؛ آزمون در تاریخ ۱…
+SUMMARY:امتحان: آزمون در تاریخ ۱۳ آذر برگزار 
+ می‌شود
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-14/
 END:VEVENT
 BEGIN:VEVENT
-UID:487cef699c29376a26e1@hamcalas.github.io
-DTSTAMP:20261014T093933Z
+UID:dda7a48e4b91db5b5a5c@hamcalas.github.io
+DTSTAMP:20261014T095039Z
 DTSTART;VALUE=DATE:20270910
 DTEND;VALUE=DATE:20270911
 SUMMARY:مهلت: مهلت ثبت نمرات دوره تابستان تا 
- تاریخ ۱۹ شهریور فعال است.
+ تاریخ ۱۹ شهریور فعال است
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-14/
 END:VEVENT
 END:VCALENDAR
