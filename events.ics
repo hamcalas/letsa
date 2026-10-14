@@ -6,31 +6,44 @@ METHOD:PUBLISH
 X-WR-CALNAME:خلاصه‌ی روزانه‌ی گروه‌های مدرسه
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
-UID:2535211345d6f76529cc@hamcalas.github.io
-DTSTAMP:20261014T135358Z
+UID:2bcf80fd03c5dbc25943@hamcalas.github.io
+DTSTAMP:20261014T135948Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-SUMMARY:مهلت: مهلت ثبت نمرات تابستان تا تاریخ
-  ۱۹ مهر اعلام شده است
-URL:https://hamcalas.github.io/school-summary-data/d/2026-10-11/
+SUMMARY:مهلت: مهلت ثبت نمرات نتایج ارزشیابی ت
+ ابستان سال تحصیلی ۱۴۰۵–۱۴۰۴ در سامانه س
+ یدا تا پایان ساعت ۲۴ روز یکشنبه ۱۹ مهرماه
+  ۱۴۰۵ تمدید شد
+URL:https://hamcalas.github.io/school-summary-data/d/2026-10-09/
 END:VEVENT
 BEGIN:VEVENT
-UID:9c6a21476bd598335346@hamcalas.github.io
-DTSTAMP:20261014T135358Z
+UID:e4f5e892ad3f6ecb1914@hamcalas.github.io
+DTSTAMP:20261014T135948Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:مهلت: مهلت انتخاب رشته آزمون‌های سرا
+ سری و پذیرش دانشجو-معلم تا روز یکشنبه ۱۹ 
+ مهرماه تمدید شد
+URL:https://hamcalas.github.io/school-summary-data/d/2026-10-08/
+END:VEVENT
+BEGIN:VEVENT
+UID:b4aee7b957507002d060@hamcalas.github.io
+DTSTAMP:20261014T135948Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-SUMMARY:مهلت: ثبت‌نام آزمون تبدیل وضعیت استخ
- دامی کارکنان پیمانی از ۱۶ مهرماه تا ۲۵ مه
- رماه ۱۴۰۵ از طریق سامانه hrtc
+SUMMARY:امتحان: آزمون تبدیل وضعیت استخدامی (پ
+ یمانی به رسمی آزمایشی) برای کارکنان واجد 
+ شرایط، از تاریخ ۱۶ مهرماه تا ۲۵ مهرماه ۱۴
+ ۰۵ در سامانه hrtc
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-12/
 END:VEVENT
 BEGIN:VEVENT
-UID:0d485bdb79dd77bf9b0d@hamcalas.github.io
-DTSTAMP:20261014T135358Z
+UID:c6dfd6ec4d2ddf00f76c@hamcalas.github.io
+DTSTAMP:20261014T135948Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-SUMMARY:امتحان: برگزاری آزمون تبدیل وضعیت در 
- تاریخ ۱۳ آذرماه ۱۴۰۵
+SUMMARY:امتحان: ir انجام می‌شود و آزمون آن در 
+ ۱۳ آذرماه ۱۴۰۵ برگزار خواهد شد
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-12/
 END:VEVENT
 END:VCALENDAR
