@@ -6,22 +6,22 @@ METHOD:PUBLISH
 X-WR-CALNAME:خلاصه‌ی روزانه‌ی گروه‌های مدرسه
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
-UID:c368cb2f0dd33ddede2f@hamcalas.github.io
-DTSTAMP:20261014T103647Z
+UID:611a26d4018fd01af2c4@hamcalas.github.io
+DTSTAMP:20261014T104303Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-SUMMARY:امتحان: آزمون تبدیل وضعیت استخدامی (پ
- یمانی به رسمی آزمایشی) برای نیروهای مشمو
- ل از تاریخ ۱۶ مهر تا ۲۵ مهر در سامانه hrtc
+SUMMARY:مهلت: آزمون تبدیل وضعیت استخدامی (پیم
+ انی به رسمی آزمایشی) مهلت ثبت‌نام از ۱۶ م
+ هرماه تا ۲۵ مهرماه ۱۴۰۵ از طریق سامانه hrtc
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-14/
 END:VEVENT
 BEGIN:VEVENT
-UID:48e333cf791af8c9a11d@hamcalas.github.io
-DTSTAMP:20261014T103647Z
+UID:795e6c3e99c98e78c35c@hamcalas.github.io
+DTSTAMP:20261014T104303Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-SUMMARY:امتحان: آزمون در تاریخ ۱۳ آذر برگزار 
- خواهد شد
+SUMMARY:امتحان: تاریخ برگزاری آزمون ۱۳ آذرما
+ ه ۱۴۰۵ می‌باشد
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-14/
 END:VEVENT
 END:VCALENDAR
