@@ -1,5 +1,5 @@
-const V='ss-202610140902-1',P="/school-summary-data/";
-self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll([P,P+'archive/',P+'events/',P+'offline.html',P+'my.js',P+'theme.js',P+'install.js']).catch(()=>{})).then(()=>self.skipWaiting()))});
+const V='ss-202610140904-1',P="/school-summary-data/";
+self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll([P,P+'archive/',P+'events/',P+'offline.html',P+'my.js',P+'theme.js',P+'install.js',P+'ui.js']).catch(()=>{})).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',e=>{
  const r=e.request,u=new URL(r.url);
