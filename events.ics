@@ -6,24 +6,31 @@ METHOD:PUBLISH
 X-WR-CALNAME:خلاصه‌ی روزانه‌ی گروه‌های مدرسه
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
-UID:d10f511764f88f330735@hamcalas.github.io
-DTSTAMP:20261014T132144Z
+UID:2535211345d6f76529cc@hamcalas.github.io
+DTSTAMP:20261014T132721Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:مهلت: مهلت ثبت نمرات تابستان تا تاریخ
+  ۱۹ مهر اعلام شده است
+URL:https://hamcalas.github.io/school-summary-data/d/2026-10-11/
+END:VEVENT
+BEGIN:VEVENT
+UID:9c6a21476bd598335346@hamcalas.github.io
+DTSTAMP:20261014T132721Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:مهلت: ثبت‌نام آزمون تبدیل وضعیت استخ
- دامی: ثبت‌نام نیروهای مشمول برای تبدیل و
- ضعیت از پیمانی به رسمی آزمایشی از ۱۶ تا ۲
- ۵ مهرماه ۱۴۰۵ در سامانه hrtc
-URL:https://hamcalas.github.io/school-summary-data/d/2026-10-14/
+ دامی کارکنان پیمانی از ۱۶ مهرماه تا ۲۵ مه
+ رماه ۱۴۰۵ از طریق سامانه hrtc
+URL:https://hamcalas.github.io/school-summary-data/d/2026-10-12/
 END:VEVENT
 BEGIN:VEVENT
-UID:60969ce1989bb1cf80ac@hamcalas.github.io
-DTSTAMP:20261014T132144Z
+UID:0d485bdb79dd77bf9b0d@hamcalas.github.io
+DTSTAMP:20261014T132721Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-SUMMARY:امتحان: تاریخ برگزاری آزمون ۱۳ آذرما
- ه ۱۴۰۵ است و شرط قبولی کسب ۵۰ درصد میانگی
- ن نمره سه نفر اول شغل-شهرستان می‌باشد
-URL:https://hamcalas.github.io/school-summary-data/d/2026-10-14/
+SUMMARY:امتحان: برگزاری آزمون تبدیل وضعیت در 
+ تاریخ ۱۳ آذرماه ۱۴۰۵
+URL:https://hamcalas.github.io/school-summary-data/d/2026-10-12/
 END:VEVENT
 END:VCALENDAR
