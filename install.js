@@ -1,43 +1,41 @@
-/* دکمه‌ی نصب PWA: اندروید/کروم (beforeinstallprompt)، راهنمای iOS و مرورگرهای درون‌برنامه‌ای. */
+/* نصب PWA: کارت بزرگ پایین صفحه + دکمه‌ی همیشگی در هدر/ناوبری پایین/هیرو (حتی بعد از «بعداً»). */
 (function () {
-  var ua = navigator.userAgent || '', dismissed = 0;
-  try { dismissed = +localStorage.getItem('ss_inst_x') || 0; } catch (e) {}
-  if (matchMedia('(display-mode: standalone)').matches || navigator.standalone) return; // قبلاً نصب شده
+  var R = document.documentElement, ua = navigator.userAgent || '', K = 'ss_inst_snooze';
+  if (matchMedia('(display-mode: standalone)').matches || navigator.standalone) return;
   var ios = /iphone|ipad|ipod/i.test(ua), inapp = /Telegram|Instagram|FBAN|FBAV|Line\/|; wv\)|Eitaa|Bale|Rubika/i.test(ua);
-  var ev = null, bar;
-  var css = document.createElement('style');
-  css.textContent = '.inst{position:fixed;inset-inline:12px;bottom:12px;z-index:50;background:var(--card,#f5f6f8);color:var(--fg,#111);border:1px solid var(--bd,#e5e7eb);border-radius:14px;padding:10px 14px;box-shadow:0 6px 24px rgba(0,0,0,.18);display:flex;gap:10px;align-items:center;font-size:14px;line-height:1.7;max-width:520px;margin:0 auto}' +
-    '.inst button{font:inherit;cursor:pointer;border-radius:8px;border:1px solid var(--bd,#ddd);background:transparent;color:inherit;padding:4px 12px}.inst .go{background:var(--acc,#2563eb);color:#fff;border-color:transparent}.inst span{flex:1}';
-  document.head.appendChild(css);
-  function show(msg, action) {
-    if (bar || Date.now() - dismissed < 7 * 864e5) return;
-    bar = document.createElement('div'); bar.className = 'inst'; bar.setAttribute('role', 'dialog');
-    bar.innerHTML = '<span>' + msg + '</span>';
-    if (action) { var g = document.createElement('button'); g.className = 'go'; g.textContent = 'نصب'; g.onclick = action; bar.appendChild(g); }
-    var x = document.createElement('button'); x.textContent = '✕'; x.setAttribute('aria-label', 'بستن');
-    x.onclick = function () { try { localStorage.setItem('ss_inst_x', Date.now()); } catch (e) {} bar.remove(); };
-    bar.appendChild(x); document.body.appendChild(bar);
+  var ev = null, sheet = null, back = null;
+  function snoozed() { try { return Date.now() - (+localStorage.getItem(K) || 0) < 3 * 864e5; } catch (e) { return false; } }
+  function icon() { var l = document.querySelector('link[rel=apple-touch-icon]'); return l ? l.href : ''; }
+  function close(snooze) {
+    if (snooze) { try { localStorage.setItem(K, Date.now()); } catch (e) {} }
+    sheet && sheet.remove(); back && back.remove(); sheet = back = null;
+  }
+  function open() {
+    if (sheet) return;
+    var name = (document.querySelector('meta[name="apple-mobile-web-app-title"]') || {}).content || document.title;
+    var how = ios ? '<ul><li>۱) دکمه‌ی اشتراک‌گذاری ⬆️ پایین سافاری را بزنید</li><li>۲) «Add to Home Screen» را انتخاب کنید</li></ul>'
+      : inapp ? '<ul><li>این مرورگر درون‌برنامه‌ای است و نصب را پشتیبانی نمی‌کند.</li><li>منوی ⋮ ← «باز کردن در Chrome» و دوباره امتحان کنید.</li></ul>'
+      : ev ? '' : '<ul><li>منوی ⋮ مرورگر ← «Install app / نصب برنامه»</li></ul>';
+    back = document.createElement('div'); back.className = 'inst-back'; back.onclick = function () { close(true); };
+    sheet = document.createElement('div'); sheet.className = 'inst-sheet'; sheet.setAttribute('role', 'dialog'); sheet.setAttribute('aria-label', 'نصب برنامه');
+    sheet.innerHTML = '<div class="ih">' + (icon() ? '<img src="' + icon() + '" alt="">' : '') +
+      '<div><h3>نصب «' + name + '»</h3><p>دسترسی یک‌لمسی از صفحه‌ی اصلی گوشی، بدون نوار آدرس، و باز شدن حتی بدون اینترنت.</p></div></div>' + how +
+      '<div class="ia">' + (ev ? '<button type="button" class="btn" id="inst-go">نصب برنامه</button>' : '') +
+      '<button type="button" class="btn ghost" id="inst-later">' + (ev ? 'بعداً' : 'متوجه شدم') + '</button></div>';
+    document.body.appendChild(back); document.body.appendChild(sheet);
+    var go = sheet.querySelector('#inst-go');
+    if (go) go.onclick = function () { var e = ev; ev = null; close(false); e.prompt(); e.userChoice.then(function (c) { if (c.outcome !== 'accepted') { ev = e; } }); };
+    sheet.querySelector('#inst-later').onclick = function () { close(true); };
   }
   addEventListener('beforeinstallprompt', function (e) {
-    e.preventDefault(); ev = e;
-    setTimeout(function () { show('📲 برنامه را نصب کنید تا خلاصه‌ی هر روز یک‌لمسی و حتی آفلاین باز شود.', function () {
-      ev.prompt(); ev.userChoice.then(function () { ev = null; bar && bar.remove(); }); }); }, 4000);
+    e.preventDefault(); ev = e; R.classList.add('can-install');
+    if (!snoozed()) setTimeout(open, 2500);
   });
-  addEventListener('appinstalled', function () { bar && bar.remove(); });
-  // دکمه‌ی دستی در هر عنصر با data-install (مثلاً صفحه‌ی عیب‌یابی/فوتر)
+  addEventListener('appinstalled', function () { ev = null; R.classList.remove('can-install'); close(false); });
   document.addEventListener('click', function (e) {
     var t = e.target.closest && e.target.closest('[data-install]'); if (!t) return;
-    e.preventDefault();
-    if (ev) { ev.prompt(); return; }
-    alert(ios ? 'در سافاری: دکمه‌ی اشتراک‌گذاری ⬆️ ← «Add to Home Screen»' :
-      inapp ? 'این مرورگر درون‌برنامه‌ای است؛ لینک را در Chrome باز کنید و از منوی ⋮ گزینه‌ی «Install app / نصب برنامه» را بزنید.' :
-      'از منوی مرورگر (⋮) گزینه‌ی «Install app / افزودن به صفحه‌ی اصلی» را بزنید. اگر نیست، صفحه‌ی /pwa-check/ علت را نشان می‌دهد.');
+    e.preventDefault(); open();
   });
-  window.addEventListener('load', function () {
-    setTimeout(function () {
-      if (ev) return;
-      if (ios) show('📲 برای نصب: دکمه‌ی اشتراک‌گذاری ⬆️ را بزنید و «Add to Home Screen» را انتخاب کنید.');
-      else if (inapp) show('📲 برای نصب، این صفحه را در Chrome باز کنید (منوی ⋮ ← باز کردن در مرورگر).');
-    }, 6000);
-  });
+  if (ios || inapp) { R.classList.add('can-install'); addEventListener('load', function () { if (!snoozed()) setTimeout(open, 5000); }); }
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(true); });
 })();
