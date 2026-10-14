@@ -7,7 +7,7 @@ X-WR-CALNAME:خلاصه‌ی روزانه‌ی گروه‌های مدرسه
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
 UID:32ff3f7e8cfa1d3eb8bf@hamcalas.github.io
-DTSTAMP:20261014T175200Z
+DTSTAMP:20261014T175359Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:مهلت: مهلت ثبت نمرات تابستان تا تاریخ
@@ -17,7 +17,7 @@ URL:https://hamcalas.github.io/school-summary-data/d/2026-10-11/
 END:VEVENT
 BEGIN:VEVENT
 UID:3ab44e077fbbc0e049a3@hamcalas.github.io
-DTSTAMP:20261014T175200Z
+DTSTAMP:20261014T175359Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:مهلت: ثبت نتایج ارزشیابی تابستان سال 
@@ -28,7 +28,7 @@ URL:https://hamcalas.github.io/school-summary-data/d/2026-10-09/
 END:VEVENT
 BEGIN:VEVENT
 UID:801cf425680ea8285d18@hamcalas.github.io
-DTSTAMP:20261014T175200Z
+DTSTAMP:20261014T175359Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:مهلت: تمدید مهلت انتخاب رشته آزمون‌ه
@@ -37,34 +37,21 @@ SUMMARY:مهلت: تمدید مهلت انتخاب رشته آزمون‌ه
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-08/
 END:VEVENT
 BEGIN:VEVENT
-UID:83edc5f07847db69ca53@hamcalas.github.io
-DTSTAMP:20261014T175200Z
+UID:8c56e0ed353718dff18f@hamcalas.github.io
+DTSTAMP:20261014T175359Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-SUMMARY:مهلت: تاریخ ۱۶ مهر تا ۲۵ مهر ۱۴۰۵: ثبت
- ‌نام آزمون تبدیل وضعیت استخدامی کارکنان
-  پیمانی (پیمانی به رسمی آزمایشی) در سامان
- ه hrtc
+SUMMARY:امتحان: ۱۶ مهر تا ۲۵ مهر ۱۴۰۵: برگزاری
+  آزمون تبدیل وضعیت استخدامی (پیمانی به رس
+ می آزمایشی) از طریق سامانه `hrtc
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-12/
 END:VEVENT
 BEGIN:VEVENT
-UID:0c281af783fbf38b66b1@hamcalas.github.io
-DTSTAMP:20261014T175200Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-SUMMARY:مهلت: مهلت ثبت‌نام و انتخاب رشته پذی
- رش بدون آزمون (بر اساس سوابق تحصیلی) دانش
- گاه‌ها و مؤسسات آموزش عالی تا روز یکشنبه
-  ۲۶ مهرماه تمدید شد
-URL:https://hamcalas.github.io/school-summary-data/d/2026-10-13/
-END:VEVENT
-BEGIN:VEVENT
-UID:0b0ca197a34f382903df@hamcalas.github.io
-DTSTAMP:20261014T175200Z
+UID:c782750a522832fc6aee@hamcalas.github.io
+DTSTAMP:20261014T175359Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-SUMMARY:امتحان: ir (برگزاری آزمون در ۱۳ آذر ۱۴۰
- ۵)
+SUMMARY:امتحان: ir` (تاریخ آزمون: ۱۳ آذر ۱۴۰۵)
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-12/
 END:VEVENT
 END:VCALENDAR
