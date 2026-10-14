@@ -6,52 +6,74 @@ METHOD:PUBLISH
 X-WR-CALNAME:خلاصه‌ی روزانه‌ی گروه‌های مدرسه
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
-UID:32ff3f7e8cfa1d3eb8bf@hamcalas.github.io
-DTSTAMP:20261014T180323Z
+UID:abdb08b33c1ecb69c9f4@hamcalas.github.io
+DTSTAMP:20261014T182557Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:مهلت: مهلت ثبت نمرات ضمن‌سال تا ۱۵ مه
+ رماه اعلام شد
+URL:https://hamcalas.github.io/school-summary-data/d/2026-10-05/
+END:VEVENT
+BEGIN:VEVENT
+UID:bbfac7cef283ce368bdc@hamcalas.github.io
+DTSTAMP:20261014T182557Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-SUMMARY:مهلت: مهلت ثبت نمرات تابستان تا تاریخ
-  ۱۹ مهرماه ۱۴۰۵ (پایان ساعت ۲۴ روز یکشنبه)
-  اعلام شده است
+SUMMARY:مهلت: تمدید مهلت ثبت نمرات ارزشیابی ت
+ ابستان در سیدا تا ۲۴ روز یکشنبه ۱۹ مهرماه
+  ۱۴۰۵
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-11/
 END:VEVENT
 BEGIN:VEVENT
-UID:3ab44e077fbbc0e049a3@hamcalas.github.io
-DTSTAMP:20261014T180323Z
+UID:2a5940361862fb7b0966@hamcalas.github.io
+DTSTAMP:20261014T182557Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-SUMMARY:مهلت: ثبت نتایج ارزشیابی تابستان سال 
- تحصیلی ۱۴۰۵–۱۴۰۴ در سامانه سیدا تا پایا
- ن ساعت ۲۴ روز یکشنبه ۱۹ مهرماه ۱۴۰۵ تمدید
-  شد
+SUMMARY:مهلت: مهلت ثبت نمرات ارزشیابی دوره تا
+ بستان سال تحصیلی ۱۴۰۵–۱۴۰۴ در سامانه سی
+ دا تا پایان ساعت ۲۴ روز یکشنبه ۱۹ مهرماه 
+ ۱۴۰۵ تمدید شد (همچنین در گزا…
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-09/
 END:VEVENT
 BEGIN:VEVENT
-UID:801cf425680ea8285d18@hamcalas.github.io
-DTSTAMP:20261014T180323Z
+UID:a1e74b606e32ab49db2f@hamcalas.github.io
+DTSTAMP:20261014T182557Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-SUMMARY:مهلت: تمدید مهلت انتخاب رشته آزمون‌ه
- ای سراسری، پذیرش دانشجو‑معلم و سوابق تح
- صیلی تا یکشنبه ۱۹ مهر ماه
+SUMMARY:مهلت: مهلت انتخاب رشته آزمون‌های سرا
+ سری، پذیرش دانشجو-معلم و سوابق تحصیلی تا 
+ یکشنبه ۱۹ مهر ۱۴۰۵ تمدید شد
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-08/
 END:VEVENT
 BEGIN:VEVENT
-UID:8c56e0ed353718dff18f@hamcalas.github.io
-DTSTAMP:20261014T180323Z
+UID:d458bde5bdbd515b8bca@hamcalas.github.io
+DTSTAMP:20261014T182557Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-SUMMARY:امتحان: ۱۶ مهر تا ۲۵ مهر ۱۴۰۵: برگزاری
-  آزمون تبدیل وضعیت استخدامی (پیمانی به رس
- می آزمایشی) از طریق سامانه `hrtc
+SUMMARY:مهلت: ثبت‌نام آزمون تبدیل وضعیت استخ
+ دامی کارکنان پیمانی (از نیروهای نهضت، پی
+ ش‌دبستانی، حق‌التدریس و غیره) به رسمی آ
+ زمایشی از تاریخ ۱۶ مهرماه تا ۲…
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-12/
 END:VEVENT
 BEGIN:VEVENT
-UID:c782750a522832fc6aee@hamcalas.github.io
-DTSTAMP:20261014T180323Z
+UID:ac71f59afcb72248d78a@hamcalas.github.io
+DTSTAMP:20261014T182557Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:مهلت: مهلت انتخاب رشته پذیرش بدون آزم
+ ون تا ۲۶ مهرماه 1405 تمدید شد (مخصوص داوطلب
+ انی که در آزمون سراسری 1405 ثبت‌نام نکرده
+ ‌اند)
+URL:https://hamcalas.github.io/school-summary-data/d/2026-10-13/
+END:VEVENT
+BEGIN:VEVENT
+UID:67ffb62aeedcd8388bfc@hamcalas.github.io
+DTSTAMP:20261014T182557Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-SUMMARY:امتحان: ir` (تاریخ آزمون: ۱۳ آذر ۱۴۰۵)
+SUMMARY:امتحان: ir انجام می‌شود و آزمون در تار
+ یخ ۱۳ آذرماه ۱۴۰۵ برگزار خواهد شد
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-12/
 END:VEVENT
 END:VCALENDAR
