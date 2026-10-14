@@ -6,32 +6,23 @@ METHOD:PUBLISH
 X-WR-CALNAME:خلاصه‌ی روزانه‌ی گروه‌های مدرسه
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
-UID:8dd2522c2e1ef8825390@hamcalas.github.io
-DTSTAMP:20261014T095039Z
+UID:8ec1c432888908bde72b@hamcalas.github.io
+DTSTAMP:20261014T095340Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-SUMMARY:مهلت: ثبت‌نام آزمون تبدیل وضعیت استخ
- دامی (پیمانی به رسمی آزمایشی) برای نیروها
- ی واجد شرایط از ۱۶ مهر تا ۲۵ مهر در سامانه
-  hrtc
+SUMMARY:مهلت: ثبت‌نام از ۱۶ مهرماه تا ۲۵ مهرم
+ اه ۱۴۰۵ از طریق سامانه hrtc
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-14/
 END:VEVENT
 BEGIN:VEVENT
-UID:f20226e531b1d8526791@hamcalas.github.io
-DTSTAMP:20261014T095039Z
+UID:8429b5016ab08279ce70@hamcalas.github.io
+DTSTAMP:20261014T095340Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-SUMMARY:امتحان: آزمون در تاریخ ۱۳ آذر برگزار 
- می‌شود
-URL:https://hamcalas.github.io/school-summary-data/d/2026-10-14/
-END:VEVENT
-BEGIN:VEVENT
-UID:dda7a48e4b91db5b5a5c@hamcalas.github.io
-DTSTAMP:20261014T095039Z
-DTSTART;VALUE=DATE:20270910
-DTEND;VALUE=DATE:20270911
-SUMMARY:مهلت: مهلت ثبت نمرات دوره تابستان تا 
- تاریخ ۱۹ شهریور فعال است
+SUMMARY:امتحان: تاریخ برگزاری آزمون ۱۳ آذرما
+ ه ۱۴۰۵ است و شرط قبولی، کسب ۵۰ درصد میانگ
+ ین نمره مکتسبه سه نفر اول در هر شغل-شهرست
+ ان خواهد بود
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-14/
 END:VEVENT
 END:VCALENDAR
