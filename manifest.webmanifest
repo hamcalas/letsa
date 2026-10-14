@@ -1,0 +1,26 @@
+{
+ "name": "خلاصه‌ی روزانه‌ی گروه‌های مدرسه",
+ "short_name": "خلاصه‌ی روزانه",
+ "description": "خلاصه‌ی روزانه‌ی اطلاعیه‌ها، امتحان‌ها، تعطیلی‌ها و پیام‌های مهم گروه‌های مدرسه؛ خودکار و رایگان",
+ "lang": "fa",
+ "dir": "rtl",
+ "start_url": "/school-summary-data/",
+ "scope": "/school-summary-data/",
+ "display": "standalone",
+ "theme_color": "#2563eb",
+ "background_color": "#ffffff",
+ "icons": [
+  {
+   "src": "/school-summary-data/icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "/school-summary-data/icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}

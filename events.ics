@@ -1,0 +1,8 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//school-summary//FA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:خلاصه‌ی روزانه‌ی گروه‌های مدرسه
+X-WR-TIMEZONE:Asia/Tehran
+END:VCALENDAR
