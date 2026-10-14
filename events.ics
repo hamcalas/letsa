@@ -6,22 +6,24 @@ METHOD:PUBLISH
 X-WR-CALNAME:خلاصه‌ی روزانه‌ی گروه‌های مدرسه
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
-UID:611a26d4018fd01af2c4@hamcalas.github.io
-DTSTAMP:20261014T110832Z
+UID:d10f511764f88f330735@hamcalas.github.io
+DTSTAMP:20261014T111251Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-SUMMARY:مهلت: آزمون تبدیل وضعیت استخدامی (پیم
- انی به رسمی آزمایشی) مهلت ثبت‌نام از ۱۶ م
- هرماه تا ۲۵ مهرماه ۱۴۰۵ از طریق سامانه hrtc
+SUMMARY:مهلت: ثبت‌نام آزمون تبدیل وضعیت استخ
+ دامی: ثبت‌نام نیروهای مشمول برای تبدیل و
+ ضعیت از پیمانی به رسمی آزمایشی از ۱۶ تا ۲
+ ۵ مهرماه ۱۴۰۵ در سامانه hrtc
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-14/
 END:VEVENT
 BEGIN:VEVENT
-UID:795e6c3e99c98e78c35c@hamcalas.github.io
-DTSTAMP:20261014T110832Z
+UID:60969ce1989bb1cf80ac@hamcalas.github.io
+DTSTAMP:20261014T111251Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:امتحان: تاریخ برگزاری آزمون ۱۳ آذرما
- ه ۱۴۰۵ می‌باشد
+ ه ۱۴۰۵ است و شرط قبولی کسب ۵۰ درصد میانگی
+ ن نمره سه نفر اول شغل-شهرستان می‌باشد
 URL:https://hamcalas.github.io/school-summary-data/d/2026-10-14/
 END:VEVENT
 END:VCALENDAR
