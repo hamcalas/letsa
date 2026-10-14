@@ -1,87 +1,53 @@
-<!doctype html>
-<html lang="fa" dir="rtl">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>خلاصه‌ی روزانه‌ی گروه‌های مدرسه</title>
-<style>
-:root{--bg:#fff;--fg:#1c1c1e;--mut:#6b7280;--card:#f5f6f8;--acc:#2563eb;--bd:#e5e7eb}
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>خلاصه‌ی روزانه‌ی گروه‌های مدرسه</title><meta name="description" content="خلاصه‌ی روزانه‌ی اطلاعیه‌ها، امتحان‌ها، تعطیلی‌ها و پیام‌های مهم گروه‌های مدرسه؛ خودکار و رایگان"><meta name="theme-color" content="#2563eb"><meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large"><link rel="canonical" href="https://hamcalas.github.io/school-summary-data/"><link rel="alternate" type="application/atom+xml" title="خلاصه‌ی روزانه‌ی گروه‌های مدرسه" href="https://hamcalas.github.io/school-summary-data/feed.xml"><meta property="og:type" content="website"><meta property="og:title" content="خلاصه‌ی روزانه‌ی گروه‌های مدرسه"><meta property="og:description" content="خلاصه‌ی روزانه‌ی اطلاعیه‌ها، امتحان‌ها، تعطیلی‌ها و پیام‌های مهم گروه‌های مدرسه؛ خودکار و رایگان"><meta property="og:url" content="https://hamcalas.github.io/school-summary-data/"><meta property="og:site_name" content="خلاصه‌ی روزانه‌ی گروه‌های مدرسه"><meta property="og:locale" content="fa_IR"><meta name="twitter:card" content="summary"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "خلاصه‌ی روزانه‌ی گروه‌های مدرسه", "url": "https://hamcalas.github.io/school-summary-data/", "description": "خلاصه‌ی روزانه‌ی اطلاعیه‌ها، امتحان‌ها، تعطیلی‌ها و پیام‌های مهم گروه‌های مدرسه؛ خودکار و رایگان", "inLanguage": "fa"}</script><style>:root{--bg:#fff;--fg:#1c1c1e;--mut:#6b7280;--card:#f5f6f8;--acc:#2563eb;--bd:#e5e7eb}
 @media(prefers-color-scheme:dark){:root{--bg:#121316;--fg:#e8e8ea;--mut:#9aa0a6;--card:#1c1e22;--acc:#6ea0ff;--bd:#2a2d33}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.9 Tahoma,"Segoe UI",system-ui,sans-serif}
-.wrap{max-width:1000px;margin:auto;padding:16px;display:grid;gap:16px;grid-template-columns:290px 1fr}
-@media(max-width:760px){.wrap{grid-template-columns:1fr}}
-h1{font-size:20px;margin:0 0 12px}
-aside input{width:100%;padding:8px 10px;margin-bottom:8px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--fg);font:inherit}
-#list{display:flex;flex-direction:column;gap:6px;max-height:70vh;overflow:auto}
-#list a{display:block;padding:8px 10px;border:1px solid var(--bd);border-radius:8px;color:inherit;text-decoration:none;background:var(--card)}
-#list a:hover{border-color:var(--acc)}
-#list small{display:block;color:var(--mut);line-height:1.6;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
-main{min-width:0}
-#view h2{margin-top:0;font-size:19px}
-#view h3{margin:18px 0 4px;color:var(--acc);font-size:17px}
-#view li{margin:3px 0}
-#view small{color:var(--mut)}
-.mut{color:var(--mut)}
-.post-footer{margin-top:24px;padding-top:12px;border-top:1px solid var(--bd)}
-.post-extra{margin-top:12px}
-</style>
-</head>
-<body>
-<div class="wrap">
-  <aside>
-    <h1>آرشیو خلاصه‌ها</h1>
-    <input id="date" type="date" aria-label="تاریخ">
-    <input id="q" type="search" placeholder="جستجو در همه‌ی روزها…">
-    <div id="list"><p class="mut">در حال بارگذاری…</p></div>
-  </aside>
-  <main id="view"><p class="mut">در حال بارگذاری…</p></main>
-</div>
-<script src="school-summary.js"></script>
-<script>
-const ss = new SchoolSummary(window.SS_BASE || new URL(".", location.href).href);
-const $ = (id) => document.getElementById(id);
-const DATE = /^\d{4}-\d{2}-\d{2}$/;
-let days = [];
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.9 Tahoma,"Segoe UI",system-ui,sans-serif}
+a{color:var(--acc)}.wrap{max-width:860px;margin:auto;padding:16px}
+header.top{border-bottom:1px solid var(--bd);background:var(--card)}header.top .wrap{display:flex;gap:16px;align-items:center;flex-wrap:wrap;padding:10px 16px}
+header.top b a{color:inherit;text-decoration:none}header.top nav{margin-inline-start:auto;display:flex;gap:14px;font-size:14px}
+h1{font-size:22px;margin:.6em 0 .2em}h2{font-size:19px}article h3{margin:18px 0 4px;color:var(--acc);font-size:17px}
+article li{margin:3px 0}small,.mut{color:var(--mut)}
+.post-footer{margin-top:24px;padding-top:12px;border-top:1px solid var(--bd)}.post-extra{margin-top:12px}
+.list{display:flex;flex-direction:column;gap:6px;padding:0;list-style:none}
+.list a{display:block;padding:8px 10px;border:1px solid var(--bd);border-radius:8px;color:inherit;text-decoration:none;background:var(--card)}
+.list a:hover{border-color:var(--acc)}.list small{display:block;line-height:1.6}
+.pn{display:flex;justify-content:space-between;gap:10px;margin:24px 0;flex-wrap:wrap}
+input[type=search]{width:100%;padding:8px 10px;margin:8px 0;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--fg);font:inherit}
+footer.site{border-top:1px solid var(--bd);margin-top:32px;color:var(--mut);font-size:14px}</style></head><body><header class="top"><div class="wrap"><b><a href="/school-summary-data/">خلاصه‌ی روزانه‌ی گروه‌های مدرسه</a></b><nav><a href="/school-summary-data/archive/">آرشیو</a><a href="/school-summary-data/feed.xml">RSS</a></nav></div></header><main class="wrap"><h1>خلاصه‌ی روزانه‌ی گروه‌های مدرسه</h1><p class="mut">خلاصه‌ی روزانه‌ی اطلاعیه‌ها، امتحان‌ها، تعطیلی‌ها و پیام‌های مهم گروه‌های مدرسه؛ خودکار و رایگان</p><article><h2><a href="/school-summary-data/d/2026-10-14/">خلاصه‌ی گروه‌های مدرسه - ۱۴۰۵/۰۷/۲۲</a></h2><h3>مهم‌ترین موارد</h3>
+<ul>
+  <li><strong>آزمون تبدیل وضعیت استخدامی پیمانی به رسمی آزمایشی:</strong> ویژه نیروهای پیمانی فاقد قبولی در آزمون‌های استخدامی ماده (۴۴). ثبت‌نام از تاریخ <strong>۱۶ مهرماه تا ۲۵ مهرماه ۱۴۰۵</strong> از طریق سامانه جهاد دانشگاهی (hrtc.ir) انجام می‌شود. تاریخ برگزاری آزمون <strong>۱۳ آذرماه ۱۴۰۵</strong> است و حدنصاب قبولی کسب ۵۰ درصد میانگین نمره مکتسبه سه نفر اول در هر شغل-شهرستان خواهد بود.</li>
+  <li><strong>انتخابات انجمن اولیا و مربیان (سال تحصیلی ۱۴۰۵-۱۴۰۶):</strong> فرایند در سامانه مای مدیو (بخش پرورشی) آغاز شده است. مدیر مدرسه باید نسبت به تعیین رئیس سنی مجمع، تنظیم بازه زمانی ثبت‌نام کاندیداها، تعیین تاریخ انتخابات و تایید نهایی داوطلبان اقدام کند. اولیا جهت جلوگیری از خطای سامانه باید حداقل ۲۰ کاراکتر در فیلد سوابق درج کنند.</li>
+</ul>
 
-const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const listHtml = (items) =>
-  items.map((d) => `<a href="#${d.date}"><b>${esc(d.date_fa || d.date)}</b><small>${esc(d.excerpt || "")}</small></a>`).join("")
-  || '<p class="mut">موردی پیدا نشد.</p>';
+<h3>ثبت‌نام، سازماندهی و هدایت تحصیلی</h3>
+<ul>
+  <li><strong>کلاسبندی و ظرفیت:</strong> برای رفع خطای مازاد بر سقف ظرفیت، باید درخواست ویرایش و افزایش ظرفیت از طریق «سازمان مدرسه» به منطقه ارسال و پس از تایید، کلاس جدید تعریف شود. حداقل تعداد مجاز برای تشکیل هر کلاس ۱۴ نفر است و تعداد کمتر نیازمند مجوز استمرار است.</li>
+  <li><strong>دانش‌آموزان انتقالی و وقفه تحصیلی:</strong> انتقال و اصلاح پایه مستلزم خروج از کلاسبندی، ابطال ثبت‌نام و آزادسازی در سیدا، و حذف پرونده موازی در بینا است. ثبت‌نام دانش‌آموزان دارای وقفه نیازمند ثبت مجوز وقفه در سیدا و پیش‌ثبت‌نام مجدد است.</li>
+  <li><strong>شرایط سنی:</strong> دانش‌آموزان دارای کبر سن در دوره دوم متوسطه روزانه مجاز به تحصیل نبوده و باید به مدارس بزرگسالان هدایت شوند؛ در دوره ابتدایی ثبت‌نام این افراد منوط به اخذ مجوز کبر سن در سامانه است. پذیرش دانش‌آموز صغر سن با اخذ فرم معرفی از سنجش، بارگذاری مدارک و تایید مجوز در سیدا امکان‌پذیر است.</li>
+  <li><strong>دانش‌آموزان اتباع:</strong> ثبت‌نام منوط به ارائه برگه معتبر و جدید هویت تحصیلی (دارای هولوگرام) برای سال جاری است.</li>
+</ul>
 
-async function show(date) {
-  try {
-    const r = await ss.day(date);
-    $("view").innerHTML = `<h2>${esc(r.title)}</h2>` + r.html + (r.footer_html || "");
-    $("date").value = date;
-  } catch (e) {
-    $("view").innerHTML = '<p class="mut">برای این تاریخ خلاصه‌ای منتشر نشده است.</p>';
-  }
-}
+<h3>امتحانات، سوابق تحصیلی و فارغ‌التحصیلی</h3>
+<ul>
+  <li><strong>ضوابط تحویل اصل گواهینامه پایان تحصیلات متوسطه دوم:</strong> برای فارغ‌التحصیلان دختر، تحویل پس از احراز هویت به خود شخص (حداقل ۱۸ سال تمام) یا وکیل قانونی با وکالت‌نامه رسمی صورت می‌گیرد. برای فارغ‌التحصیلان پسر، تحویل صرفاً با احراز هویت (حداقل ۱۸ سال، قیم قانونی یا وکیل رسمی) به همراه مدرک معتبر نظام وظیفه (کارت پایان خدمت، معافیت دائم، گواهی اشتغال به خدمت، معافیت موقت معتبر یا برگه آماده به خدمت بدون غیبت) انجام می‌شود و ارائه صرف گواهی اشتغال به تحصیل دانشگاه کافی نیست.</li>
+  <li><strong>اصلاح مشخصات و سوابق:</strong> ثبت درخواست اصلاح سوابق شناسنامه‌ای در سامانه امین برای تمام سال‌های دارای مغایرت، تایید منطقه، زدن دکمه اجرا و محاسبه مجدد وضعیت مدرسه و کارنامه کلی الزامی است. اصلاح سوابق پس از صدور گواهینامه نیازمند حذف از فارغ‌التحصیلان در امین، اصلاح در سیدا، ارسال مجدد و تایید سنجش یا استان است.</li>
+  <li><strong>تبصره و تک‌ماده:</strong> استفاده از تک‌ماده حداکثر برای ۴ عنوان درسی امکان‌پذیر است و با ۵ درس ناتمام، فارغ‌التحصیلی احراز نمی‌شود. قبولی با تبصره در دوره شهریور به دلیل عدم وجود نمره مستمر، نیازمند نمره سالانه ۷ به بالا است.</li>
+  <li><strong>تمبر مدارک:</strong> گواهی موقت و فرم ۶۰۲ نیازی به تمبر ندارند؛ الصاق تمبر تنها برای کارنامه‌های تحصیلی فارغ‌التحصیلی ضروری است.</li>
+  <li><strong>سقف انتخاب واحد بزرگسالان (آموزش از راه دور):</strong> در نوبت دی‌ماه حداکثر ۱۷ واحد مجاز است که در صورت امکان فارغ‌التحصیلی تا ۴ واحد دیگر (+۴ واحد) قابل افزایش است.</li>
+  <li><strong>ثبت نمرات و غیبت‌ها:</strong> مطرح شده که ثبت کد نمره ۹۸ موجب صفر شدن یا پاک شدن نمرات می‌شود؛ طبق یک توصیه تأییدنشده، اعلام شده که باید کد ۹۷ جایگزین یا با سنجش هماهنگی شود.</li>
+  <li><strong>کارنامه و نمرات در نرم‌افزار آموزشگاهی (آفتابیک):</strong> امکان ورود تنها یک نمره و نمایش یک ستون نمره در کارنامه وجود دارد و ستون‌های خالی نباید نمایش داده شوند. ثبت چند نمره اختیاری و برای نمایش نمودار و روند تحصیلی است.</li>
+</ul>
 
-async function init() {
-  try { days = await ss.index(); } catch (e) {
-    $("list").innerHTML = "";
-    $("view").innerHTML = '<p class="mut">هنوز خلاصه‌ای منتشر نشده است.</p>';
-    return;
-  }
-  if (!days.length) { $("view").innerHTML = '<p class="mut">هنوز خلاصه‌ای منتشر نشده است.</p>'; return; }
-  $("list").innerHTML = listHtml(days.slice(0, 30));
-  const h = location.hash.slice(1);
-  show(DATE.test(h) ? h : days[0].date);
-}
+<h3>وضعیت سامانه‌ها و امور فنی</h3>
+<ul>
+  <li><strong>اختلالات ورود:</strong> درگاه دولت، سامانه مای مدیو، سیدا و بینا دارای اختلال هستند. استفاده مکرر از رمز یکبارمصرف (از طریق پیام‌رسان بله) یا آدرس Edu1.medu.ir توصیه شده است.</li>
+  <li><strong>سامانه امین:</strong> خطاهایی شامل وضعیت «بررسی نشده»، به‌هم‌ریختگی فونت گواهی‌های موقت، عدم نمایش نمرات یا کارنامه کلی خرداد و شهریور، و تاخیر در محاسبات گزارش شده است. انتقال عکس‌ها از سیدا به امین خودکار نبوده و نیازمند ذخیره صفحات سیدا با فرمت وب (Ctrl+S) و جایگذاری بر اساس کد ملی یا بارگذاری انفرادی است.</li>
+  <li><strong>دروس پودمانی هنرستان:</strong> مشکل ثبت و ارسال نمرات دروس پودمانی، شایستگی و کدهای جدید از سیدا به امین کماکان ادامه دارد.</li>
+  <li><strong>سامانه نرم‌افزاری مدرسه:</strong> کلیپ آموزشی ثبت دانش‌آموزان منتشر شده و برای انتقال اطلاعات در سال جدید باید از روش‌های نسخه جدید استفاده شود. اطلاعات در کامپیوتر کاربر ذخیره شده و مسیر آن از منوی «درباره» نرم‌افزار قابل مشاهده است.</li>
+</ul>
 
-addEventListener("hashchange", () => { const h = location.hash.slice(1); if (DATE.test(h)) show(h); });
-$("date").addEventListener("change", (e) => { if (e.target.value) location.hash = e.target.value; });
-let t;
-$("q").addEventListener("input", (e) => {
-  clearTimeout(t);
-  t = setTimeout(async () => {
-    const q = e.target.value.trim();
-    $("list").innerHTML = q ? listHtml(await ss.search(q).catch(() => [])) : listHtml(days.slice(0, 30));
-  }, 300);
-});
-init();
-</script>
-</body>
-</html>
+<h3>امور کادر اداری، معلمان و شاد</h3>
+<ul>
+  <li><strong>تخصیص درس و ساعات تدریس:</strong> ایجاد درس‌گروه منوط به صدور و تایید ابلاغ در سیدا است. کادر فاقد ابلاغ تدریس رسمی از طریق بخش «نیروی آزاد» یا «خرید خدمات» تعریف می‌شوند.</li>
+  <li><strong>تشکیل گروه‌های شاد:</strong> تشکیل خودکار نیازمند تکمیل ثبت‌نام، کلاسبندی، تایید ابلاغ، تخصیص معلم، انتخاب واحد اتوماتیک در سیدا و به‌روزرسانی شماره شاد معلمان در مای مدیو است. اضافه شدن برخی دانش‌آموزان با تاخیر انجام می‌شود.</li>
+  <li><strong>ارزشیابی و رتبه‌بندی:</strong> فرم‌های جدید ارزشیابی از طریق اتوماسیون اداری ابلاغ شده است. همچنین تایید رتبه‌بندی در کارتابل سها به دلیل باگ سامانه‌ای با عدم نمایش پرسنل روبرو است.</li>
+</ul><footer class="post-footer"><p><small>این خلاصه به‌صورت خودکار با هوش مصنوعی تهیه شده و ممکن است خطا داشته باشد؛ برای اطلاعات دقیق به منبع مراجعه کنید. منابع: <a href="https://t.me/aftabiktalk" rel="nofollow noopener" target="_blank">امورات مدرسه</a>، <a href="https://t.me/salariejraee" rel="nofollow noopener" target="_blank">معاونین اجرایی مدارس کشور(متوسطه دوم و ابتدایی)</a></small></p></footer></article><h2>خلاصه‌های اخیر</h2><input id="q" type="search" placeholder="جستجو در همه‌ی روزها…" aria-label="جستجو"><div id="list"><ul class="list"></ul></div><p><a href="/school-summary-data/archive/">مشاهده‌ی آرشیو کامل ←</a></p><script>(function(){var P="/school-summary-data",q=document.getElementById('q'),L=document.getElementById('list'),o=L.innerHTML,t,ld;if(/^#\d{4}-\d{2}-\d{2}$/.test(location.hash))location.replace(P+'/d/'+location.hash.slice(1)+'/');function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}function load(){return ld||(ld=new Promise(function(ok){var s=document.createElement('script');s.src=P+'/school-summary.js';s.onload=function(){ok(new SchoolSummary(location.origin+P))};document.head.appendChild(s)}))}q.addEventListener('input',function(){clearTimeout(t);t=setTimeout(function(){var v=q.value.trim();if(!v){L.innerHTML=o;return}load().then(function(ss){return ss.search(v)}).then(function(rs){L.innerHTML=rs.length?rs.map(function(r){return '<li><a href="'+P+'/d/'+r.date+'/"><b>'+esc(r.date_fa||r.date)+'</b><small>'+esc(r.excerpt||'')+'</small></a></li>'}).join(''):'<li class="mut">موردی پیدا نشد.</li>'}).catch(function(){L.innerHTML='<li class="mut">جستجو در دسترس نیست.</li>'})},300)})})()</script></main><footer class="site"><div class="wrap">© خلاصه‌ی روزانه‌ی گروه‌های مدرسه</div></footer></body></html>

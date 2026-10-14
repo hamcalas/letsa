@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /school-summary-data/api/
+
+Sitemap: https://hamcalas.github.io/school-summary-data/sitemap.xml
