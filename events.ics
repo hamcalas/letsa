@@ -7,43 +7,43 @@ X-WR-CALNAME:خلاصه‌ی روزانه‌ی گروه‌های مدرسه
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
 UID:2bcf80fd03c5dbc25943@hamcalas.github.io
-DTSTAMP:20261014T135948Z
+DTSTAMP:20261014T165310Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:مهلت: مهلت ثبت نمرات نتایج ارزشیابی ت
  ابستان سال تحصیلی ۱۴۰۵–۱۴۰۴ در سامانه س
  یدا تا پایان ساعت ۲۴ روز یکشنبه ۱۹ مهرماه
   ۱۴۰۵ تمدید شد
-URL:https://hamcalas.github.io/school-summary-data/d/2026-10-09/
+URL:https://hamcalas.github.io/d/2026-10-09/
 END:VEVENT
 BEGIN:VEVENT
 UID:e4f5e892ad3f6ecb1914@hamcalas.github.io
-DTSTAMP:20261014T135948Z
+DTSTAMP:20261014T165310Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:مهلت: مهلت انتخاب رشته آزمون‌های سرا
  سری و پذیرش دانشجو-معلم تا روز یکشنبه ۱۹ 
  مهرماه تمدید شد
-URL:https://hamcalas.github.io/school-summary-data/d/2026-10-08/
+URL:https://hamcalas.github.io/d/2026-10-08/
 END:VEVENT
 BEGIN:VEVENT
 UID:b4aee7b957507002d060@hamcalas.github.io
-DTSTAMP:20261014T135948Z
+DTSTAMP:20261014T165310Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:امتحان: آزمون تبدیل وضعیت استخدامی (پ
  یمانی به رسمی آزمایشی) برای کارکنان واجد 
  شرایط، از تاریخ ۱۶ مهرماه تا ۲۵ مهرماه ۱۴
  ۰۵ در سامانه hrtc
-URL:https://hamcalas.github.io/school-summary-data/d/2026-10-12/
+URL:https://hamcalas.github.io/d/2026-10-12/
 END:VEVENT
 BEGIN:VEVENT
 UID:c6dfd6ec4d2ddf00f76c@hamcalas.github.io
-DTSTAMP:20261014T135948Z
+DTSTAMP:20261014T165310Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:امتحان: ir انجام می‌شود و آزمون آن در 
  ۱۳ آذرماه ۱۴۰۵ برگزار خواهد شد
-URL:https://hamcalas.github.io/school-summary-data/d/2026-10-12/
+URL:https://hamcalas.github.io/d/2026-10-12/
 END:VEVENT
 END:VCALENDAR
