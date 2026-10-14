@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>خلاصه‌ی روزانه‌ی گروه‌های مدرسه</title>
+<style>
+:root{--bg:#fff;--fg:#1c1c1e;--mut:#6b7280;--card:#f5f6f8;--acc:#2563eb;--bd:#e5e7eb}
+@media(prefers-color-scheme:dark){:root{--bg:#121316;--fg:#e8e8ea;--mut:#9aa0a6;--card:#1c1e22;--acc:#6ea0ff;--bd:#2a2d33}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.9 Tahoma,"Segoe UI",system-ui,sans-serif}
+.wrap{max-width:1000px;margin:auto;padding:16px;display:grid;gap:16px;grid-template-columns:290px 1fr}
+@media(max-width:760px){.wrap{grid-template-columns:1fr}}
+h1{font-size:20px;margin:0 0 12px}
+aside input{width:100%;padding:8px 10px;margin-bottom:8px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--fg);font:inherit}
+#list{display:flex;flex-direction:column;gap:6px;max-height:70vh;overflow:auto}
+#list a{display:block;padding:8px 10px;border:1px solid var(--bd);border-radius:8px;color:inherit;text-decoration:none;background:var(--card)}
+#list a:hover{border-color:var(--acc)}
+#list small{display:block;color:var(--mut);line-height:1.6;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+main{min-width:0}
+#view h2{margin-top:0;font-size:19px}
+#view h3{margin:18px 0 4px;color:var(--acc);font-size:17px}
+#view li{margin:3px 0}
+#view small{color:var(--mut)}
+.mut{color:var(--mut)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <aside>
+    <h1>آرشیو خلاصه‌ها</h1>
+    <input id="date" type="date" aria-label="تاریخ">
+    <input id="q" type="search" placeholder="جستجو در همه‌ی روزها…">
+    <div id="list"><p class="mut">در حال بارگذاری…</p></div>
+  </aside>
+  <main id="view"><p class="mut">در حال بارگذاری…</p></main>
+</div>
+<script src="school-summary.js"></script>
+<script>
+const ss = new SchoolSummary(window.SS_BASE || new URL(".", location.href).href);
+const $ = (id) => document.getElementById(id);
+const DATE = /^\d{4}-\d{2}-\d{2}$/;
+let days = [];
+
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const listHtml = (items) =>
+  items.map((d) => `<a href="#${d.date}"><b>${esc(d.date_fa || d.date)}</b><small>${esc(d.excerpt || "")}</small></a>`).join("")
+  || '<p class="mut">موردی پیدا نشد.</p>';
+
+async function show(date) {
+  try {
+    const r = await ss.day(date);
+    $("view").innerHTML = `<h2>${esc(r.title)}</h2>` + r.html;
+    $("date").value = date;
+  } catch (e) {
+    $("view").innerHTML = '<p class="mut">برای این تاریخ خلاصه‌ای منتشر نشده است.</p>';
+  }
+}
+
+async function init() {
+  try { days = await ss.index(); } catch (e) {
+    $("list").innerHTML = "";
+    $("view").innerHTML = '<p class="mut">هنوز خلاصه‌ای منتشر نشده است.</p>';
+    return;
+  }
+  if (!days.length) { $("view").innerHTML = '<p class="mut">هنوز خلاصه‌ای منتشر نشده است.</p>'; return; }
+  $("list").innerHTML = listHtml(days.slice(0, 30));
+  const h = location.hash.slice(1);
+  show(DATE.test(h) ? h : days[0].date);
+}
+
+addEventListener("hashchange", () => { const h = location.hash.slice(1); if (DATE.test(h)) show(h); });
+$("date").addEventListener("change", (e) => { if (e.target.value) location.hash = e.target.value; });
+let t;
+$("q").addEventListener("input", (e) => {
+  clearTimeout(t);
+  t = setTimeout(async () => {
+    const q = e.target.value.trim();
+    $("list").innerHTML = q ? listHtml(await ss.search(q).catch(() => [])) : listHtml(days.slice(0, 30));
+  }, 300);
+});
+init();
+</script>
+</body>
+</html>
