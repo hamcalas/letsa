@@ -5,26 +5,4 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:خلاصه‌ی روزانه‌ی گروه‌های مدرسه
 X-WR-TIMEZONE:Asia/Tehran
-BEGIN:VEVENT
-UID:76b0c0fda546a0936899@hamcalas.github.io
-DTSTAMP:20261014T085056Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:امتحان: آغاز فرآیند ثبت‌نام آزمون تب
- دیل وضعیت (پیمانی به رسمی آزمایشی) در سام
- انه hrtc.ir از تاریخ ۱۶ مهرماه تا ۲۵ مهرماه ۱
- ۴۰۵ (برگزاری آزمون در ۱۳…
-URL:https://hamcalas.github.io/school-summary-data/d/2026-10-14/
-END:VEVENT
-BEGIN:VEVENT
-UID:5148500a5db1e292eaa5@hamcalas.github.io
-DTSTAMP:20261014T085056Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:امتحان: آغاز فرآیند ثبت‌نام آزمون تب
- دیل وضعیت (پیمانی به رسمی آزمایشی) در سام
- انه hrtc.ir از تاریخ ۱۶ مهرماه تا ۲۵ مهرماه ۱
- ۴۰۵ (برگزاری آزمون در ۱۳…
-URL:https://hamcalas.github.io/school-summary-data/d/2026-10-14/
-END:VEVENT
 END:VCALENDAR
