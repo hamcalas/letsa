@@ -38,26 +38,25 @@
 
   if (kind === 'day' && date) {
     st.read[date] = 1;
-    var h1 = document.querySelector('article h1');
-    if (h1) {
-      var bm = btn(st.mark[date] ? '★ نشانک‌شده' : '☆ نشانک', !!st.mark[date], function () {
-        if (st.mark[date]) delete st.mark[date]; else st.mark[date] = m.dataset.label || date;
-        bm.textContent = st.mark[date] ? '★ نشانک‌شده' : '☆ نشانک'; bm.setAttribute('aria-pressed', st.mark[date] ? 'true' : 'false'); save();
-      });
-      h1.parentNode.insertBefore(bm, h1.nextSibling);
-    }
-  }
-  if (kind === 'day' && m.dataset.url) {
-    var h1s = document.querySelector('article h1'), u = m.dataset.url, ttl = m.dataset.title || document.title, tx = (m.dataset.text || '');
-    if (h1s) {
-      var sh = document.createElement('span'); sh.className = 'my-share'; sh.style.marginInlineStart = '8px';
-      var enc = encodeURIComponent, msg = ttl + (tx ? '\n' + tx : '');
-      var mk2 = function (txt, fn) { var b = btn(txt, false, fn); b.style.marginInlineEnd = '6px'; return b; };
-      if (navigator.share) sh.appendChild(mk2('اشتراک‌گذاری', function () { navigator.share({ title: ttl, text: tx, url: u }).catch(function () {}); }));
-      sh.appendChild(mk2('کپی لینک', function () { var b = this; (navigator.clipboard ? navigator.clipboard.writeText(u) : Promise.reject()).then(function () { b.textContent = 'کپی شد ✓'; }, function () { prompt('لینک:', u); }); }));
-      [['تلگرام', 'https://t.me/share/url?url=' + enc(u) + '&text=' + enc(msg)], ['واتساپ', 'https://wa.me/?text=' + enc(msg + '\n' + u)]].forEach(function (p) {
-        var a = document.createElement('a'); a.href = p[1]; a.target = '_blank'; a.rel = 'noopener nofollow'; a.textContent = p[0]; a.style.marginInlineEnd = '8px'; sh.appendChild(a); });
-      h1s.parentNode.insertBefore(sh, h1s.nextSibling);
+    var dh = document.querySelector('article .dh');
+    if (dh) {
+      var bar0 = document.createElement('div'); bar0.className = 'acts'; bar0.setAttribute('role', 'group'); bar0.setAttribute('aria-label', 'اقدام‌ها');
+      var I = function (p) { return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + p + '</svg>'; };
+      var IC = { star: '<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/>', share: '<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/>',
+        link: '<path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/>', send: '<path d="M21 3L3 10.5l6.5 2.5L12 20z"/><path d="M21 3L9.5 13"/>', chat: '<path d="M21 12a8 8 0 0 1-11.7 7L3 21l2-6A8 8 0 1 1 21 12z"/>' };
+      var ab = function (ic, txt, fn, href) {
+        var e = document.createElement(href ? 'a' : 'button'); e.className = 'ab'; if (href) { e.href = href; e.target = '_blank'; e.rel = 'noopener nofollow'; } else { e.type = 'button'; e.onclick = fn; }
+        e.innerHTML = I(IC[ic]) + '<span>' + txt + '</span>'; bar0.appendChild(e); return e; };
+      var setBm = function (b) { var on = !!st.mark[date]; b.querySelector('span').textContent = on ? 'نشانک‌شده' : 'نشانک'; b.setAttribute('aria-pressed', on ? 'true' : 'false'); b.querySelector('svg').setAttribute('fill', on ? 'currentColor' : 'none'); };
+      var bm = ab('star', 'نشانک', function () { if (st.mark[date]) delete st.mark[date]; else st.mark[date] = m.dataset.label || date; setBm(bm); save(); }); setBm(bm);
+      if (m.dataset.url) {
+        var u = m.dataset.url, ttl = m.dataset.title || document.title, tx = m.dataset.text || '', enc = encodeURIComponent, msg = ttl + (tx ? '\n' + tx : '');
+        if (navigator.share) ab('share', 'اشتراک‌گذاری', function () { navigator.share({ title: ttl, text: tx, url: u }).catch(function () {}); });
+        ab('link', 'کپی لینک', function () { var sp = this.querySelector('span'); (navigator.clipboard ? navigator.clipboard.writeText(u) : Promise.reject()).then(function () { sp.textContent = 'کپی شد ✓'; }, function () { prompt('لینک:', u); }); });
+        ab('send', 'تلگرام', null, 'https://t.me/share/url?url=' + enc(u) + '&text=' + enc(msg));
+        ab('chat', 'واتساپ', null, 'https://wa.me/?text=' + enc(msg + '\n' + u));
+      }
+      dh.insertAdjacentElement('afterend', bar0);
     }
   }
   if (kind === 'topic' && m.dataset.topic) {
