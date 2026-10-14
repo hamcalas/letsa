@@ -2,6 +2,17 @@
 (function () {
   var CS = document.currentScript, P = ''; try { P = new URL(CS.src).pathname.replace(/\/ui\.js$/, ''); } catch (e) {}
   var d = document, w = window, hd = d.querySelector('header.top');
+
+  /* سلام بر اساس ساعت + شمارش معکوس مهلت‌ها (فقط سمت کاربر) */
+  var faN = function (n) { return String(n).replace(/\d/g, function (x) { return '۰۱۲۳۴۵۶۷۸۹'[x]; }); };
+  var g = d.querySelector('[data-greet]');
+  if (g) { var hr = new Date().getHours(); g.textContent = hr < 5 ? 'شب بخیر' : hr < 11 ? 'صبح بخیر' : hr < 14 ? 'ظهر بخیر' : hr < 20 ? 'عصر بخیر' : 'شب بخیر'; }
+  d.querySelectorAll('[data-cd]').forEach(function (el) {
+    var p = el.dataset.cd.split('-'), n = new Date(), t = new Date(+p[0], p[1] - 1, +p[2]), n0 = new Date(n.getFullYear(), n.getMonth(), n.getDate());
+    var k = Math.round((t - n0) / 864e5), box = el.closest('.next');
+    if (k < 0) { if (box) box.hidden = true; return; }
+    el.textContent += k === 0 ? ' · امروز' : k === 1 ? ' · فردا' : ' · ' + faN(k) + ' روز دیگر';
+  });
   var bar = d.createElement('div'); bar.className = 'rp'; bar.setAttribute('aria-hidden', 'true'); d.body.appendChild(bar);
   var up = d.createElement('button'); up.type = 'button'; up.className = 'up'; up.setAttribute('aria-label', 'بازگشت به بالا');
   up.innerHTML = '<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m0 0l6-6m-6 6l6 6"/></svg>';
