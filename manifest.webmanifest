@@ -1,12 +1,12 @@
 {
- "id": "/school-summary-data/",
- "name": "خلاصه‌ی روزانه‌ی گروه‌های مدرسه",
- "short_name": "خلاصه‌ی روزانه",
- "description": "خلاصه‌ی روزانه‌ی اطلاعیه‌ها، امتحان‌ها، تعطیلی‌ها و پیام‌های مهم گروه‌های مدرسه؛ خودکار و رایگان",
+ "id": "/letsa/",
+ "name": "لتسا؛ چکیده‌ای از آنچه باید بدانید",
+ "short_name": "لتسا؛ چکیده‌ای",
+ "description": "خلاصه گفت‌وگوها، بخشنامه‌ها، اطلاعیه‌ها و مطالب کاربردی؛ گردآوری خودکار و رایگان",
  "lang": "fa",
  "dir": "rtl",
- "start_url": "/school-summary-data/?source=pwa",
- "scope": "/school-summary-data/",
+ "start_url": "/letsa/?source=pwa",
+ "scope": "/letsa/",
  "display": "standalone",
  "display_override": [
   "standalone",
@@ -21,25 +21,25 @@
  ],
  "icons": [
   {
-   "src": "/school-summary-data/icons/icon-192.png",
+   "src": "/letsa/icons/icon-192.png",
    "sizes": "192x192",
    "type": "image/png",
    "purpose": "any"
   },
   {
-   "src": "/school-summary-data/icons/icon-512.png",
+   "src": "/letsa/icons/icon-512.png",
    "sizes": "512x512",
    "type": "image/png",
    "purpose": "any"
   },
   {
-   "src": "/school-summary-data/icons/maskable-192.png",
+   "src": "/letsa/icons/maskable-192.png",
    "sizes": "192x192",
    "type": "image/png",
    "purpose": "maskable"
   },
   {
-   "src": "/school-summary-data/icons/maskable-512.png",
+   "src": "/letsa/icons/maskable-512.png",
    "sizes": "512x512",
    "type": "image/png",
    "purpose": "maskable"
@@ -47,27 +47,27 @@
  ],
  "screenshots": [
   {
-   "src": "/school-summary-data/icons/shot-narrow.png",
+   "src": "/letsa/icons/shot-narrow.png",
    "sizes": "540x720",
    "type": "image/png",
    "form_factor": "narrow",
-   "label": "خلاصه‌ی روزانه‌ی گروه‌های مدرسه"
+   "label": "لتسا؛ چکیده‌ای از آنچه باید بدانید"
   },
   {
-   "src": "/school-summary-data/icons/shot-wide.png",
+   "src": "/letsa/icons/shot-wide.png",
    "sizes": "1280x720",
    "type": "image/png",
    "form_factor": "wide",
-   "label": "خلاصه‌ی روزانه‌ی گروه‌های مدرسه"
+   "label": "لتسا؛ چکیده‌ای از آنچه باید بدانید"
   }
  ],
  "shortcuts": [
   {
    "name": "آرشیو",
-   "url": "/school-summary-data/archive/",
+   "url": "/letsa/archive/",
    "icons": [
     {
-     "src": "/school-summary-data/icons/icon-192.png",
+     "src": "/letsa/icons/icon-192.png",
      "sizes": "192x192",
      "type": "image/png",
      "purpose": "any"
@@ -76,10 +76,10 @@
   },
   {
    "name": "رویدادها",
-   "url": "/school-summary-data/events/",
+   "url": "/letsa/events/",
    "icons": [
     {
-     "src": "/school-summary-data/icons/icon-192.png",
+     "src": "/letsa/icons/icon-192.png",
      "sizes": "192x192",
      "type": "image/png",
      "purpose": "any"
