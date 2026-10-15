@@ -7,7 +7,7 @@ X-WR-CALNAME:خلاصه‌ی روزانه‌ی گروه‌های مدرسه
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
 UID:bbfac7cef283ce368bdc@hamcalas.github.io
-DTSTAMP:20261015T175945Z
+DTSTAMP:20261015T192240Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:مهلت: تمدید مهلت ثبت نمرات ارزشیابی ت
@@ -17,7 +17,7 @@ URL:https://hamcalas.github.io/school-summary-data/d/2026-10-11/
 END:VEVENT
 BEGIN:VEVENT
 UID:2a5940361862fb7b0966@hamcalas.github.io
-DTSTAMP:20261015T175945Z
+DTSTAMP:20261015T192240Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:مهلت: مهلت ثبت نمرات ارزشیابی دوره تا
@@ -28,7 +28,7 @@ URL:https://hamcalas.github.io/school-summary-data/d/2026-10-09/
 END:VEVENT
 BEGIN:VEVENT
 UID:a1e74b606e32ab49db2f@hamcalas.github.io
-DTSTAMP:20261015T175945Z
+DTSTAMP:20261015T192240Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:مهلت: مهلت انتخاب رشته آزمون‌های سرا
@@ -38,7 +38,7 @@ URL:https://hamcalas.github.io/school-summary-data/d/2026-10-08/
 END:VEVENT
 BEGIN:VEVENT
 UID:d458bde5bdbd515b8bca@hamcalas.github.io
-DTSTAMP:20261015T175945Z
+DTSTAMP:20261015T192240Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:مهلت: ثبت‌نام آزمون تبدیل وضعیت استخ
@@ -49,7 +49,7 @@ URL:https://hamcalas.github.io/school-summary-data/d/2026-10-12/
 END:VEVENT
 BEGIN:VEVENT
 UID:ac71f59afcb72248d78a@hamcalas.github.io
-DTSTAMP:20261015T175945Z
+DTSTAMP:20261015T192240Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:مهلت: مهلت انتخاب رشته پذیرش بدون آزم
@@ -60,7 +60,7 @@ URL:https://hamcalas.github.io/school-summary-data/d/2026-10-13/
 END:VEVENT
 BEGIN:VEVENT
 UID:67ffb62aeedcd8388bfc@hamcalas.github.io
-DTSTAMP:20261015T175945Z
+DTSTAMP:20261015T192240Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:امتحان: ir انجام می‌شود و آزمون در تار
