@@ -7,74 +7,57 @@ X-WR-CALNAME:لتسا؛ خلاصه‌ی روزانه‌ی اطلاعیه‌
  ها و بخشنامه‌های آموزشی
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
-UID:2d2bee4531a76e664466@hamcalas.github.io
-DTSTAMP:20261015T203837Z
+UID:272e6ae7bc42ffe7bb03@hamcalas.github.io
+DTSTAMP:20261015T205559Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-SUMMARY:مهلت: مهلت ثبت نمرات تابستان تا تاریخ
-  ۱۹ و تمدید مهلت ثبت نتایج ارزشیابی تابست
- ان سال تحصیلی ۱۴۰۵-۱۴۰۴ تا پایان ساعت ۲۴ 
- روز یکشنبه ۱۹ مهرماه ۱۴۰۵ در سیدا
+SUMMARY:مهلت: ۱۹ مهرماه ۱۴۰۵: آخرین مهلت ثبت ن
+ مرات دوره تابستان تا ساعت ۲۴ روز یکشنبه د
+ ر سامانه سیدا
 URL:https://hamcalas.github.io/letsa/d/2026-10-11/
 END:VEVENT
 BEGIN:VEVENT
-UID:0c734b8a2621e09eaccb@hamcalas.github.io
-DTSTAMP:20261015T203837Z
+UID:07c1638d392d645f69a7@hamcalas.github.io
+DTSTAMP:20261015T205559Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:مهلت: مهلت ثبت نتایج ارزشیابی تابستا
- ن سال تحصیلی ۱۴۰۵–۱۴۰۴ در سامانه سیدا تا
-  پایان ساعت ۲۴ روز یکشنبه ۱۹ مهرماه ۱۴۰۵ (
- و همچنین تاریخ ۲۰/۷) تمدید شد
+ ن سال تحصیلی ۱۴۰۵–۱۴۰۴ در سامانه سیدا (م
+ توسطه دوم) تا پایان ساعت ۲۴ روز یکشنبه ۱۹ 
+ مهرماه ۱۴۰۵ تمدید شد
 URL:https://hamcalas.github.io/letsa/d/2026-10-09/
 END:VEVENT
 BEGIN:VEVENT
-UID:d56f57a1b35e79b8dd65@hamcalas.github.io
-DTSTAMP:20261015T203837Z
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
-SUMMARY:مهلت: مهلت انتخاب رشته آزمون‌های سرا
- سری و پذیرش دانشجو-معلم و سوابق تحصیلی سا
- ل ۱۴۰۵ تا یکشنبه ۱۹ مهر ماه تمدید شد
-URL:https://hamcalas.github.io/letsa/d/2026-10-08/
-END:VEVENT
-BEGIN:VEVENT
-UID:538751cb62a90be0d8dc@hamcalas.github.io
-DTSTAMP:20261015T203837Z
+UID:e7f04c5deb131f8f5934@hamcalas.github.io
+DTSTAMP:20261015T205559Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-SUMMARY:مهلت: آزمون تبدیل وضعیت استخدامی (پیم
- انی به رسمی آزمایشی) برای نیروهای نهضت، پ
- یش‌دبستانی، حق‌التدریس و غیره از تاریخ 
- ۱۶ مهرماه تا ۲۵ مهرماه ۱۴۰۵ در سامانه hrtc.i
- r برگزار می‌شود و تاریخ برگزاری آزمون ۱۳ 
- آذرماه ۱۴۰۵ است
+SUMMARY:مهلت: آزمون تبدیل وضعیت استخدامی کار
+ کنان پیمانی (پیمانی به رسمی آزمایشی): مهل
+ ت ثبت‌نام در سامانه hrtc.ir از تاریخ ۱۶ مهرم
+ اه تا ۲۵ مهرماه ۱۴۰۵ و تاریخ برگزاری آزمو
+ ن ۱۳ آذرماه ۱۴۰۵ است
 URL:https://hamcalas.github.io/letsa/d/2026-10-12/
 END:VEVENT
 BEGIN:VEVENT
-UID:9bab2fb4c88068d1ff58@hamcalas.github.io
-DTSTAMP:20261015T203837Z
+UID:cc94f79784c9d11816f4@hamcalas.github.io
+DTSTAMP:20261015T205559Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
-SUMMARY:مهلت: مهلت ثبت‌نام و انتخاب رشته داو
- طلبان تحصیل در رشته‌های پذیرش صرفاً بر ا
- ساس سوابق تحصیلی (بدون آزمون) سراسری مهرم
- اه سال ۱۴۰۵ دانشگاه‌ها و مؤسسات آموزش عا
- لی (مختص متقاضیانی که در آزمون سراسری سال
-  ۱۴۰۵ ثبت‌نام نکرده‌اند)…
+SUMMARY:مهلت: 🔴 مهلت انتخاب رشته پذیرش بدون 
+ آزمون تمدید شد! ۲۶ مهرماه ۱۴۰۵
 URL:https://hamcalas.github.io/letsa/d/2026-10-13/
 END:VEVENT
 BEGIN:VEVENT
-UID:8ca2226eb39a84a86324@hamcalas.github.io
-DTSTAMP:20261015T203837Z
+UID:8a9f2249cd7dd12963b7@hamcalas.github.io
+DTSTAMP:20261015T205559Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-SUMMARY:امتحان: آزمون تبدیل وضعیت استخدامی (پ
- یمانی به رسمی آزمایشی) برای نیروهای نهضت
- ، پیش‌دبستانی، حق‌التدریس و غیره از تار
- یخ ۱۶ مهرماه تا ۲۵ مهرماه ۱۴۰۵ در سامانه h
- rtc.ir برگزار می‌شود و تاریخ برگزاری آزمون 
- ۱۳ آذرماه ۱۴۰۵ است
+SUMMARY:مهلت: آزمون تبدیل وضعیت استخدامی کار
+ کنان پیمانی (پیمانی به رسمی آزمایشی): مهل
+ ت ثبت‌نام در سامانه hrtc.ir از تاریخ ۱۶ مهرم
+ اه تا ۲۵ مهرماه ۱۴۰۵ و تاریخ برگزاری آزمو
+ ن ۱۳ آذرماه ۱۴۰۵ است
 URL:https://hamcalas.github.io/letsa/d/2026-10-12/
 END:VEVENT
 END:VCALENDAR
