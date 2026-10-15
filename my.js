@@ -20,10 +20,6 @@
   document.querySelectorAll('.ev[data-date]').forEach(function (li) { if (li.dataset.date < today) li.hidden = true; });
   var box = document.querySelector('.ev-box'); if (box && !box.querySelector('.ev:not([hidden])')) box.hidden = true;
 
-  if (st.days.indexOf(today) < 0) { st.days.push(today); st.days = st.days.slice(-90); }
-  var streak = 0, c = new Date(t);
-  for (;;) { var k = c.getFullYear() + '-' + ('0' + (c.getMonth() + 1)).slice(-2) + '-' + ('0' + c.getDate()).slice(-2);
-    if (st.days.indexOf(k) < 0) break; streak++; c.setDate(c.getDate() - 1); }
 
   function mark() {
     document.querySelectorAll('#list a[href*="/d/"]').forEach(function (a) {
@@ -103,7 +99,6 @@
     var recent = J('data-recent', {}), tinfo = J('data-topics', {}), keys = Object.keys(recent).sort();
     var fresh = st.last ? keys.filter(function (d) { return d > st.last; }) : [];
     var bar = document.createElement('div'); bar.className = 'my-bar'; var parts = [];
-    if (streak > 1) parts.push('🔥 ' + fa(streak) + ' روز پیاپی سر زدید');
     if (fresh.length) parts.push('<span class="my-new">' + fa(fresh.length) + ' خلاصه‌ی جدید</span> از آخرین بازدید: ' +
       fresh.slice(-5).reverse().map(function (d) { return '<a href="' + P + '/d/' + d + '/">' + recent[d] + '</a>'; }).join('، '));
     var fol = Object.keys(st.topics).map(function (s) {
@@ -114,9 +109,8 @@
     var mk = Object.keys(st.mark).sort().reverse().slice(0, 5);
     if (mk.length) parts.push('نشانک‌ها: ' + mk.map(function (d) { return '<a href="' + P + '/d/' + d + '/">' + st.mark[d] + '</a>'; }).join('، '));
     if (parts.length) {
-      bar.innerHTML = parts.join('<br>') + '<br><button type="button" id="my-clear">پاک‌کردن اطلاعات من</button> <small>(فقط روی همین دستگاه ذخیره شده)</small>';
+      bar.innerHTML = parts.join('<br>');
       var main = document.querySelector('main'); if (main) main.insertBefore(bar, main.firstChild);
-      document.getElementById('my-clear').onclick = function () { try { localStorage.removeItem(K); } catch (e) {} bar.remove(); };
     }
     if (latest) st.last = latest;
   }
