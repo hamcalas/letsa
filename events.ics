@@ -7,57 +7,48 @@ X-WR-CALNAME:لتسا؛ خلاصه‌ی روزانه‌ی اطلاعیه‌
  ها و بخشنامه‌های آموزشی
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
-UID:272e6ae7bc42ffe7bb03@hamcalas.github.io
-DTSTAMP:20261015T215622Z
+UID:a6f889e1ef16732b0a58@hamcalas.github.io
+DTSTAMP:20261015T220351Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-SUMMARY:مهلت: ۱۹ مهرماه ۱۴۰۵: آخرین مهلت ثبت ن
- مرات دوره تابستان تا ساعت ۲۴ روز یکشنبه د
- ر سامانه سیدا
+SUMMARY:مهلت: مهلت ثبت نمرات تابستان تا تاریخ
+  ۱۹ فعال است و تمدید مهلت ثبت نتایج ارزشی
+ ابی تابستان سال تحصیلی ۱۴۰۵-۱۴۰۴ در ساما
+ نه سیدا تا پایان ساعت ۲۴ روز یکشنبه ۱۹ مه
+ رماه ۱۴۰۵ اعلام شده است
 URL:https://hamcalas.github.io/letsa/d/2026-10-11/
 END:VEVENT
 BEGIN:VEVENT
-UID:07c1638d392d645f69a7@hamcalas.github.io
-DTSTAMP:20261015T215622Z
+UID:d89f50d694ef3fd83c8d@hamcalas.github.io
+DTSTAMP:20261015T220351Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-SUMMARY:مهلت: مهلت ثبت نتایج ارزشیابی تابستا
- ن سال تحصیلی ۱۴۰۵–۱۴۰۴ در سامانه سیدا (م
- توسطه دوم) تا پایان ساعت ۲۴ روز یکشنبه ۱۹ 
- مهرماه ۱۴۰۵ تمدید شد
+SUMMARY:مهلت: مهلت ثبت نمرات ارزشیابی تابستا
+ ن سال تحصیلی ۱۴۰۵–۱۴۰۴ در سامانه سیدا تا
+  پایان ساعت ۲۴ روز یکشنبه ۱۹ مهرماه ۱۴۰۵ 
+ تمدید شد
 URL:https://hamcalas.github.io/letsa/d/2026-10-09/
 END:VEVENT
 BEGIN:VEVENT
-UID:e7f04c5deb131f8f5934@hamcalas.github.io
-DTSTAMP:20261015T215622Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:مهلت: آزمون تبدیل وضعیت استخدامی کار
- کنان پیمانی (پیمانی به رسمی آزمایشی): مهل
- ت ثبت‌نام در سامانه hrtc.ir از تاریخ ۱۶ مهرم
- اه تا ۲۵ مهرماه ۱۴۰۵ و تاریخ برگزاری آزمو
- ن ۱۳ آذرماه ۱۴۰۵ است
-URL:https://hamcalas.github.io/letsa/d/2026-10-12/
+UID:8dc809bb09dae8e37eed@hamcalas.github.io
+DTSTAMP:20261015T220351Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:مهلت: مهلت انتخاب رشته آزمون‌های سرا
+ سری و پذیرش دانشجو-معلم و سوابق تحصیلی سا
+ ل ۱۴۰۵ تا روز یکشنبه ۱۹ مهر ماه تمدید شده 
+ است
+URL:https://hamcalas.github.io/letsa/d/2026-10-08/
 END:VEVENT
 BEGIN:VEVENT
-UID:cc94f79784c9d11816f4@hamcalas.github.io
-DTSTAMP:20261015T215622Z
+UID:7ed71cf7216f610c7bb0@hamcalas.github.io
+DTSTAMP:20261015T220351Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
-SUMMARY:مهلت: 🔴 مهلت انتخاب رشته پذیرش بدون 
- آزمون تمدید شد! ۲۶ مهرماه ۱۴۰۵
+SUMMARY:مهلت: مهلت انتخاب رشته پذیرش بدون آزم
+ ون (بر اساس سوابق تحصیلی) برای متقاضیانی 
+ که در آزمون سراسری ۱۴۰۵ ثبت‌نام نکرده‌ا
+ ند، تا روز یکشنبه، ۲۶ مهرماه تمدید شد
 URL:https://hamcalas.github.io/letsa/d/2026-10-13/
-END:VEVENT
-BEGIN:VEVENT
-UID:8a9f2249cd7dd12963b7@hamcalas.github.io
-DTSTAMP:20261015T215622Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:مهلت: آزمون تبدیل وضعیت استخدامی کار
- کنان پیمانی (پیمانی به رسمی آزمایشی): مهل
- ت ثبت‌نام در سامانه hrtc.ir از تاریخ ۱۶ مهرم
- اه تا ۲۵ مهرماه ۱۴۰۵ و تاریخ برگزاری آزمو
- ن ۱۳ آذرماه ۱۴۰۵ است
-URL:https://hamcalas.github.io/letsa/d/2026-10-12/
 END:VEVENT
 END:VCALENDAR
