@@ -14,6 +14,7 @@
   css.textContent = '.my-bar{background:var(--card,#f5f6f8);border:1px solid var(--bd,#e5e7eb);border-radius:10px;padding:10px 14px;margin:0 0 14px;font-size:.92rem;line-height:1.9}' +
     '.my-bar a{color:var(--acc,#2563eb)}.my-bar button,.my-btn{font:inherit;cursor:pointer;border:1px solid var(--bd,#e5e7eb);background:transparent;color:inherit;border-radius:8px;padding:2px 10px}' +
     '.my-btn[aria-pressed=true]{background:var(--acc,#2563eb);color:#fff;border-color:transparent}.my-new{color:var(--acc,#2563eb);font-weight:700}' +
+    '.my-home{background:var(--soft,#eef6f5);border-color:transparent;border-radius:16px;padding:12px 16px}.my-t{color:var(--acc,#2563eb)}' +
     '#list a.my-read{opacity:.6}#list a.my-read::after{content:" ✓"}';
   document.head.appendChild(css);
 
@@ -98,7 +99,7 @@
   if (kind === 'home') {
     var recent = J('data-recent', {}), tinfo = J('data-topics', {}), keys = Object.keys(recent).sort();
     var fresh = st.last ? keys.filter(function (d) { return d > st.last; }) : [];
-    var bar = document.createElement('div'); bar.className = 'my-bar'; var parts = [];
+    var bar = document.createElement('div'); bar.className = 'my-bar my-home'; var parts = [];
     if (fresh.length) parts.push('<span class="my-new">' + fa(fresh.length) + ' خلاصه‌ی جدید</span> از آخرین بازدید: ' +
       fresh.slice(-5).reverse().map(function (d) { return '<a href="' + P + '/d/' + d + '/">' + recent[d] + '</a>'; }).join('، '));
     var fol = Object.keys(st.topics).map(function (s) {
@@ -109,7 +110,7 @@
     var mk = Object.keys(st.mark).sort().reverse().slice(0, 5);
     if (mk.length) parts.push('نشانک‌ها: ' + mk.map(function (d) { return '<a href="' + P + '/d/' + d + '/">' + st.mark[d] + '</a>'; }).join('، '));
     if (parts.length) {
-      bar.innerHTML = parts.join('<br>');
+      bar.innerHTML = '<b class="my-t">ادامه از جایی که بودید</b><br>' + parts.join('<br>');
       var main = document.querySelector('main'); if (main) main.insertBefore(bar, main.firstChild);
     }
     if (latest) st.last = latest;

@@ -7,6 +7,14 @@
   var faN = function (n) { return String(n).replace(/\d/g, function (x) { return '۰۱۲۳۴۵۶۷۸۹'[x]; }); };
   var g = d.querySelector('[data-greet]');
   if (g) { var hr = new Date().getHours(); g.textContent = hr < 5 ? 'شب بخیر' : hr < 11 ? 'صبح بخیر' : hr < 14 ? 'ظهر بخیر' : hr < 20 ? 'عصر بخیر' : 'شب بخیر'; }
+  var lc = d.querySelector('[data-last]');
+  if (lc) {
+    var lp = lc.dataset.last.split('-'), nw = new Date(), lt = new Date(+lp[0], lp[1] - 1, +lp[2]), lk = Math.round((new Date(nw.getFullYear(), nw.getMonth(), nw.getDate()) - lt) / 864e5);
+    if (lk === 0) lc.textContent = 'آخرین خلاصه: امروز'; else if (lk === 1) lc.textContent = 'آخرین خلاصه: دیروز'; else if (lk > 1 && lk < 8) lc.textContent = 'آخرین خلاصه: ' + faN(lk) + ' روز پیش';
+    var ld = d.querySelector('[data-lead]');
+    if (ld && lk === 0) ld.textContent = ld.textContent.replace('در آخرین خلاصه', 'در خلاصه‌ی امروز');
+    else if (ld && lk >= 1) ld.textContent = 'امروز هنوز خلاصه‌ی تازه‌ای نیامده؛ تا آن موقع می‌توانید آخرین خلاصه را بخوانید.';
+  }
   d.querySelectorAll('[data-cd]').forEach(function (el) {
     var p = el.dataset.cd.split('-'), n = new Date(), t = new Date(+p[0], p[1] - 1, +p[2]), n0 = new Date(n.getFullYear(), n.getMonth(), n.getDate());
     var k = Math.round((t - n0) / 864e5), box = el.closest('.next');
