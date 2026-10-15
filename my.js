@@ -59,6 +59,37 @@
       dh.insertAdjacentElement('afterend', bar0);
     }
   }
+  if (kind === 'day') {
+    /* فیلتر «پایه‌ی من» (فاز ۲ب): آیتم‌هایی که پایه‌شان نه all است و نه انتخاب‌شده پنهان می‌شوند؛ بدون JS همه دیده می‌شود. */
+    var gl = [].slice.call(document.querySelectorAll('article li[data-grades]')), gs = {};
+    gl.forEach(function (li) { li.dataset.grades.split(',').forEach(function (g) { if (g && g !== 'all') gs[g] = 1; }); });
+    var gk = Object.keys(gs).sort(function (a, b) { return a - b; });
+    if (gk.length) {
+      var gbar = document.createElement('div'); gbar.className = 'my-bar gf'; gbar.setAttribute('role', 'group'); gbar.setAttribute('aria-label', 'فیلتر پایه‌ی تحصیلی');
+      var gtxt = document.createElement('span'); gtxt.textContent = 'پایه‌ی من: '; gbar.appendChild(gtxt);
+      var gb = {};
+      var applyG = function () {
+        var sel = st.grade && gs[st.grade] ? st.grade : '', hid = 0;
+        gl.forEach(function (li) {
+          var g = li.dataset.grades.split(','), show = !sel || g.indexOf('all') >= 0 || g.indexOf(sel) >= 0;
+          li.hidden = !show; if (!show) hid++;
+        });
+        document.querySelectorAll('article ul').forEach(function (ul) {
+          var any = ul.querySelector('li:not([hidden])'), prev = ul.previousElementSibling;
+          ul.hidden = !any && !!ul.querySelector('li[hidden]');
+          if (prev && prev.tagName === 'H3') prev.hidden = ul.hidden;
+        });
+        Object.keys(gb).forEach(function (k) { gb[k].setAttribute('aria-pressed', (k === 'all' ? !sel : k === sel) ? 'true' : 'false'); });
+        note.textContent = hid ? fa(hid) + ' مورد مربوط به پایه‌های دیگر پنهان شد.' : '';
+      };
+      var pick = function (g) { if (g === 'all') delete st.grade; else st.grade = g; save(); applyG(); };
+      gb.all = btn('نمایش همه', false, function () { pick('all'); }); gbar.appendChild(gb.all);
+      gk.forEach(function (g) { gb[g] = btn(fa(g), false, function () { pick(g); }); gbar.appendChild(gb[g]); });
+      var note = document.createElement('small'); note.className = 'mut'; note.style.marginInlineStart = '8px'; gbar.appendChild(note);
+      var anc = document.querySelector('article .acts') || document.querySelector('article .dh');
+      if (anc) { anc.insertAdjacentElement('afterend', gbar); applyG(); }
+    }
+  }
   if (kind === 'topic' && m.dataset.topic) {
     var slug = m.dataset.topic, h = document.querySelector('main h1');
     var fb = btn(st.topics[slug] ? '✓ دنبال می‌کنید' : '+ دنبال‌کردن این موضوع', !!st.topics[slug], function () {
