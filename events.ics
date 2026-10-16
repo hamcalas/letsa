@@ -7,75 +7,90 @@ X-WR-CALNAME:لتسا؛ خلاصه‌ی روزانه‌ی اطلاعیه‌
  ها و بخشنامه‌های آموزشی
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
-UID:a6f889e1ef16732b0a58@hamcalas.github.io
-DTSTAMP:20261016T210628Z
+UID:bdbc5c8faf88ccfde02c@hamcalas.github.io
+DTSTAMP:20261016T212316Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-SUMMARY:مهلت: مهلت ثبت نمرات تابستان تا تاریخ
-  ۱۹ فعال است و تمدید مهلت ثبت نتایج ارزشی
- ابی تابستان سال تحصیلی ۱۴۰۵-۱۴۰۴ در ساما
- نه سیدا تا پایان ساعت ۲۴ روز یکشنبه ۱۹ مه
- رماه ۱۴۰۵ اعلام شده است
+SUMMARY:مهلت: مهلت ثبت نمرات تابستان: ثبت نمر
+ ات ارزشیابی تابستان سال تحصیلی ۱۴۰۵-۱۴۰۴
+  در سامانه سیدا تا ساعت ۲۴ روز یکشنبه ۱۹ م
+ هرماه ۱۴۰۵ تمدید شده است
 URL:https://hamcalas.github.io/letsa/d/2026-10-11/
 END:VEVENT
 BEGIN:VEVENT
-UID:d89f50d694ef3fd83c8d@hamcalas.github.io
-DTSTAMP:20261016T210628Z
+UID:e965af11417401e25297@hamcalas.github.io
+DTSTAMP:20261016T212316Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-SUMMARY:مهلت: مهلت ثبت نمرات ارزشیابی تابستا
- ن سال تحصیلی ۱۴۰۵–۱۴۰۴ در سامانه سیدا تا
-  پایان ساعت ۲۴ روز یکشنبه ۱۹ مهرماه ۱۴۰۵ 
- تمدید شد
+SUMMARY:مهلت: مهلت ثبت نتایج ارزشیابی تابستا
+ ن سال‌تحصیلی ۱۴۰۵–۱۴۰۴ در سامانه سیدا (
+ متوسطه دوم) حداکثر تا پایان ساعت ۲۴ روز ی
+ کشنبه ۱۹ مهرماه ۱۴۰۵ تمدید شد
 URL:https://hamcalas.github.io/letsa/d/2026-10-09/
 END:VEVENT
 BEGIN:VEVENT
-UID:8dc809bb09dae8e37eed@hamcalas.github.io
-DTSTAMP:20261016T210628Z
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
-SUMMARY:مهلت: مهلت انتخاب رشته آزمون‌های سرا
- سری و پذیرش دانشجو-معلم و سوابق تحصیلی سا
- ل ۱۴۰۵ تا روز یکشنبه ۱۹ مهر ماه تمدید شده 
- است
-URL:https://hamcalas.github.io/letsa/d/2026-10-08/
+UID:115d49ebdcc8786b13dc@hamcalas.github.io
+DTSTAMP:20261016T212316Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:مهلت: ثبت‌نام آزمون تبدیل وضعیت استخ
+ دامی نیروهای پیمانی به رسمی آزمایشی از ت
+ اریخ ۱۶ مهرماه تا ۲۵ مهرماه ۱۴۰۵ از طریق 
+ سامانه hrtc.ir انجام می‌شود و زمان برگزاری 
+ آزمون ۱۳ آذرماه ۱۴۰۵ است
+URL:https://hamcalas.github.io/letsa/d/2026-10-12/
 END:VEVENT
 BEGIN:VEVENT
-UID:a19bd8b95a792bd939ba@hamcalas.github.io
-DTSTAMP:20261016T210628Z
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-SUMMARY:مهلت: هم‌خوانی تاریخ امضاها با تاریخ
-  دریافت دفتر امتحانات متوسطه اول
-URL:https://hamcalas.github.io/letsa/d/2026-10-15/
+UID:cbc3c249d1709bf9a827@hamcalas.github.io
+DTSTAMP:20261016T212316Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:مهلت: مهلت ثبت‌نام و انتخاب رشته در ر
+ شته‌های پذیرش دانشجو صرفاً بر اساس سواب
+ ق تحصیلی (بدون آزمون) دانشگاه‌ها و مؤسسا
+ ت آموزش عالی تا روز یکشنبه ۲۶ مهر ۱۴۰۵ تم
+ دید شده است
+URL:https://hamcalas.github.io/letsa/d/2026-10-16/
 END:VEVENT
 BEGIN:VEVENT
-UID:7ed71cf7216f610c7bb0@hamcalas.github.io
-DTSTAMP:20261016T210628Z
+UID:49ada990c832112e773a@hamcalas.github.io
+DTSTAMP:20261016T212316Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:مهلت: مهلت انتخاب رشته پذیرش بدون آزم
- ون (بر اساس سوابق تحصیلی) برای متقاضیانی 
- که در آزمون سراسری ۱۴۰۵ ثبت‌نام نکرده‌ا
- ند، تا روز یکشنبه، ۲۶ مهرماه تمدید شد
+ ون سراسری تا ۲۶ مهرماه ادامه دارد
 URL:https://hamcalas.github.io/letsa/d/2026-10-13/
 END:VEVENT
 BEGIN:VEVENT
-UID:cfd39c2aeac4f25a771f@hamcalas.github.io
-DTSTAMP:20261016T210628Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:مهلت: ورود نمره دوازدهم مادضمن در اوا
- یل مرداد
-URL:https://hamcalas.github.io/letsa/d/2026-10-15/
+UID:e4ef505a710a6f6c6b3f@hamcalas.github.io
+DTSTAMP:20261016T212316Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:مهلت: مهلت بارگذاری مدارک رتبه‌بندی 
+ معلمان از زمان ثبت درخواست تا ۱۰ روز بعد 
+ و طبق آخرین اطلاعیه تا ۲۹ مهر است
+URL:https://hamcalas.github.io/letsa/d/2026-10-16/
 END:VEVENT
 BEGIN:VEVENT
-UID:5084c7a6badefd78db24@hamcalas.github.io
-DTSTAMP:20261016T210628Z
+UID:38b415ff4c262e6f9c2a@hamcalas.github.io
+DTSTAMP:20261016T212316Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
-SUMMARY:مهلت: مهلت ثبت‌نام در انجمن اولیا تا 
- ۱۰ آبان است
+SUMMARY:مهلت: مهلت انجام امور مربوط به «انجمن
+  اولیا و مربیان» تا پایان روز ۱۰ آبان ماه 
+ است
 URL:https://hamcalas.github.io/letsa/d/2026-10-16/
+END:VEVENT
+BEGIN:VEVENT
+UID:94228213d8c69349e120@hamcalas.github.io
+DTSTAMP:20261016T212316Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:مهلت: ثبت‌نام آزمون تبدیل وضعیت استخ
+ دامی نیروهای پیمانی به رسمی آزمایشی از ت
+ اریخ ۱۶ مهرماه تا ۲۵ مهرماه ۱۴۰۵ از طریق 
+ سامانه hrtc.ir انجام می‌شود و زمان برگزاری 
+ آزمون ۱۳ آذرماه ۱۴۰۵ است
+URL:https://hamcalas.github.io/letsa/d/2026-10-12/
 END:VEVENT
 END:VCALENDAR
