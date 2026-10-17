@@ -7,86 +7,134 @@ X-WR-CALNAME:لتسا؛ خلاصه‌ی روزانه‌ی اطلاعیه‌
  ها و بخشنامه‌های آموزشی
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
-UID:bdbc5c8faf88ccfde02c@letsa.ir
-DTSTAMP:20261017T204732Z
+UID:88d9f3780e0d86b0f37e@letsa.ir
+DTSTAMP:20261017T212206Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-SUMMARY:مهلت: مهلت ثبت نمرات تابستان: ثبت نمر
- ات ارزشیابی تابستان سال تحصیلی ۱۴۰۵-۱۴۰۴
-  در سامانه سیدا تا ساعت ۲۴ روز یکشنبه ۱۹ م
- هرماه ۱۴۰۵ تمدید شده است
+SUMMARY:مهلت: مهلت ثبت نمرات ارزشیابی دوره تا
+ بستان در سامانه سیدا تا ساعت ۲۴ روز یکشنب
+ ه ۱۹ مهرماه ۱۴۰۵ تمدید شد
 URL:https://letsa.ir/d/2026-10-11/
 END:VEVENT
 BEGIN:VEVENT
-UID:e965af11417401e25297@letsa.ir
-DTSTAMP:20261017T204732Z
+UID:92ab46e78f9f456cccfb@letsa.ir
+DTSTAMP:20261017T212206Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-SUMMARY:مهلت: مهلت ثبت نتایج ارزشیابی تابستا
- ن سال‌تحصیلی ۱۴۰۵–۱۴۰۴ در سامانه سیدا (
- متوسطه دوم) حداکثر تا پایان ساعت ۲۴ روز ی
- کشنبه ۱۹ مهرماه ۱۴۰۵ تمدید شد
+SUMMARY:مهلت: مهلت ثبت نمرات تابستانی (متوسطه
+  ۲) تا ۷/۲۰ تمدید شد و حداکثر تا پایان روز 
+ ۱۹ مهر باید نمرات ثبت شوند
 URL:https://letsa.ir/d/2026-10-09/
 END:VEVENT
 BEGIN:VEVENT
-UID:115d49ebdcc8786b13dc@letsa.ir
-DTSTAMP:20261017T204732Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:مهلت: ثبت‌نام آزمون تبدیل وضعیت استخ
- دامی نیروهای پیمانی به رسمی آزمایشی از ت
- اریخ ۱۶ مهرماه تا ۲۵ مهرماه ۱۴۰۵ از طریق 
- سامانه hrtc.ir انجام می‌شود و زمان برگزاری 
- آزمون ۱۳ آذرماه ۱۴۰۵ است
+UID:426060953710b6177749@letsa.ir
+DTSTAMP:20261017T212206Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:مهلت: مهلت ثبت نمرات تابستان: مهلت ثب
+ ت نمرات دوره تابستان تا تاریخ ۲۰ مهرماه (
+ پایان وقت ۱۹ مهرماه) بوده و سامانه مربوطه
+  پس از آن بسته شده است
 URL:https://letsa.ir/d/2026-10-12/
 END:VEVENT
 BEGIN:VEVENT
-UID:f8c4fb57238b9f8056df@letsa.ir
-DTSTAMP:20261017T204732Z
+UID:d52d3266087aeed1bdb9@letsa.ir
+DTSTAMP:20261017T212206Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:مهلت: طبق بخشنامه مورخ ۱۴۰۵/۰۷/۲۲، ام
+ کان ثبت‌نام دانش‌آموزان ایرانی و اتباع 
+ فاقد هویت برای سال تحصیلی ۱۴۰۶-۱۴۰۵ فراه
+ م شده است
+URL:https://letsa.ir/d/2026-10-14/
+END:VEVENT
+BEGIN:VEVENT
+UID:de31bf1eb3dcd89ac838@letsa.ir
+DTSTAMP:20261017T212206Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:مهلت: درخواست انتقالی مدارس نمونه دو
+ لتی: طبق بخشنامه سامانه‌ای مورخ ۱۴۰۵/۰۷/
+ ۲۵، پیش از فعال‌شدن سامانه نقل‌وانتقال
+ ات، ثبت درخواست در مدرسه مبدأ باید از مسی
+ ر «سیدا > پیش‌ثبت‌نام > مجوزهای ثبت‌نام 
+ > ایجاد» انجام شود و پس از…
+URL:https://letsa.ir/d/2026-10-17/
+END:VEVENT
+BEGIN:VEVENT
+UID:6fc51aa5045d2867c612@letsa.ir
+DTSTAMP:20261017T212206Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:مهلت: آزمون تبدیل وضعیت استخدامی (پیم
+ انی به رسمی آزمایشی): مهلت ثبت‌نام مشمول
+ ان از تاریخ ۱۶ مهرماه تا ۲۵ مهرماه ۱۴۰۵ ا
+ ز طریق سامانه hrtc.ir است
+URL:https://letsa.ir/d/2026-10-12/
+END:VEVENT
+BEGIN:VEVENT
+UID:83279d32757a4a46a356@letsa.ir
+DTSTAMP:20261017T212206Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
-SUMMARY:مهلت: مهلت ثبت‌نام و انتخاب رشته سرا
- سری دانشگاه‌ها (بدون آزمون) تا تاریخ ۱۴۰
- ۵/۰۷/۲۶ تمدید شده است
+SUMMARY:مهلت: مهلت ثبت‌نام و انتخاب رشته در ر
+ شته‌های صرفاً بر اساس سوابق تحصیلی (بدون
+  آزمون) سراسری مهرماه سال ۱۴۰۵ برای متقاض
+ یانی که در آزمون سراسری ثبت‌نام نکرده‌ا
+ ند، تا روز یکشنبه به تاریخ ۱۴۰۵/۰۷/۲۶ تمد
+ ید شد
 URL:https://letsa.ir/d/2026-10-16/
 END:VEVENT
 BEGIN:VEVENT
-UID:49ada990c832112e773a@letsa.ir
-DTSTAMP:20261017T204732Z
+UID:3600a8e9270e21d6bb33@letsa.ir
+DTSTAMP:20261017T212206Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
-SUMMARY:مهلت: مهلت انتخاب رشته پذیرش بدون آزم
- ون سراسری تا ۲۶ مهرماه ادامه دارد
+SUMMARY:مهلت: مهلت ثبت‌نام و انتخاب رشته پذی
+ رش بدون آزمون (برای داوطلبانی که در آزمون
+  سراسری ۱۴۰۵ ثبت‌نام نکرده‌اند و متقاضی
+ ان مقطع عالی) تا تاریخ ۲۶ مهرماه ۱۴۰۵ تمد
+ ید شد
 URL:https://letsa.ir/d/2026-10-13/
 END:VEVENT
 BEGIN:VEVENT
-UID:c2f84e89d0b6c45608cc@letsa.ir
-DTSTAMP:20261017T204732Z
+UID:7fccdd2d567e34dead6c@letsa.ir
+DTSTAMP:20261017T212206Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:مهلت: مهلت ثبت نمرات ارزشیابی دوره تا
+ بستان در سامانه سیدا
+URL:https://letsa.ir/d/2026-10-11/
+END:VEVENT
+BEGIN:VEVENT
+UID:aab5c68f9229be0b1d09@letsa.ir
+DTSTAMP:20261017T212206Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
-SUMMARY:مهلت: مهلت بارگذاری مدارک برای رتبه‌
- بندی معلمان حداکثر تا ۲۹ مهر می‌باشد
-URL:https://letsa.ir/d/2026-10-16/
+SUMMARY:مهلت: آخرین مهلت ثبت نهایی درخواست رت
+ به‌بندی برای مشمولان تاریخ ۳۱ شهریور، ت
+ ا ۲۹ مهر ماه اعلام شده است
+URL:https://letsa.ir/d/2026-10-15/
 END:VEVENT
 BEGIN:VEVENT
-UID:64b7440a7dc43c305f72@letsa.ir
-DTSTAMP:20261017T204732Z
+UID:b383fc8b51c904590787@letsa.ir
+DTSTAMP:20261017T212206Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
-SUMMARY:مهلت: مهلت ثبت‌نام و تشکیل انجمن اول
- یا و مربیان تا پایان روز ۱۰ آبان است
+SUMMARY:مهلت: مهلت برگزاری یا ثبت فرآیند مربو
+ ط به انتخابات انجمن اولیاء و مربیان مدار
+ س تا پایان روز ۱۰ آبان‌ماه تعیین شده است
 URL:https://letsa.ir/d/2026-10-16/
 END:VEVENT
 BEGIN:VEVENT
-UID:94228213d8c69349e120@letsa.ir
-DTSTAMP:20261017T204732Z
+UID:8a5a0d5d1414abdb63e8@letsa.ir
+DTSTAMP:20261017T212206Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-SUMMARY:مهلت: ثبت‌نام آزمون تبدیل وضعیت استخ
- دامی نیروهای پیمانی به رسمی آزمایشی از ت
- اریخ ۱۶ مهرماه تا ۲۵ مهرماه ۱۴۰۵ از طریق 
- سامانه hrtc.ir انجام می‌شود و زمان برگزاری 
- آزمون ۱۳ آذرماه ۱۴۰۵ است
+SUMMARY:امتحان: آزمون در تاریخ ۱۳ آذرماه ۱۴۰۵
+  برگزار می‌شود و شرط قبولی کسب ۵۰ درصد می
+ انگین نمره سه نفر اول در هر شغل-شهرستان ا
+ ست
 URL:https://letsa.ir/d/2026-10-12/
 END:VEVENT
 END:VCALENDAR
