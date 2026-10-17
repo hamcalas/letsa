@@ -7,30 +7,30 @@ X-WR-CALNAME:لتسا؛ خلاصه‌ی روزانه‌ی اطلاعیه‌
  ها و بخشنامه‌های آموزشی
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
-UID:bdbc5c8faf88ccfde02c@hamcalas.github.io
-DTSTAMP:20261017T194751Z
+UID:bdbc5c8faf88ccfde02c@letsa.ir
+DTSTAMP:20261017T204345Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:مهلت: مهلت ثبت نمرات تابستان: ثبت نمر
  ات ارزشیابی تابستان سال تحصیلی ۱۴۰۵-۱۴۰۴
   در سامانه سیدا تا ساعت ۲۴ روز یکشنبه ۱۹ م
  هرماه ۱۴۰۵ تمدید شده است
-URL:https://hamcalas.github.io/letsa/d/2026-10-11/
+URL:https://letsa.ir/d/2026-10-11/
 END:VEVENT
 BEGIN:VEVENT
-UID:e965af11417401e25297@hamcalas.github.io
-DTSTAMP:20261017T194751Z
+UID:e965af11417401e25297@letsa.ir
+DTSTAMP:20261017T204345Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:مهلت: مهلت ثبت نتایج ارزشیابی تابستا
  ن سال‌تحصیلی ۱۴۰۵–۱۴۰۴ در سامانه سیدا (
  متوسطه دوم) حداکثر تا پایان ساعت ۲۴ روز ی
  کشنبه ۱۹ مهرماه ۱۴۰۵ تمدید شد
-URL:https://hamcalas.github.io/letsa/d/2026-10-09/
+URL:https://letsa.ir/d/2026-10-09/
 END:VEVENT
 BEGIN:VEVENT
-UID:115d49ebdcc8786b13dc@hamcalas.github.io
-DTSTAMP:20261017T194751Z
+UID:115d49ebdcc8786b13dc@letsa.ir
+DTSTAMP:20261017T204345Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:مهلت: ثبت‌نام آزمون تبدیل وضعیت استخ
@@ -38,48 +38,48 @@ SUMMARY:مهلت: ثبت‌نام آزمون تبدیل وضعیت استخ
  اریخ ۱۶ مهرماه تا ۲۵ مهرماه ۱۴۰۵ از طریق 
  سامانه hrtc.ir انجام می‌شود و زمان برگزاری 
  آزمون ۱۳ آذرماه ۱۴۰۵ است
-URL:https://hamcalas.github.io/letsa/d/2026-10-12/
+URL:https://letsa.ir/d/2026-10-12/
 END:VEVENT
 BEGIN:VEVENT
-UID:f8c4fb57238b9f8056df@hamcalas.github.io
-DTSTAMP:20261017T194751Z
+UID:f8c4fb57238b9f8056df@letsa.ir
+DTSTAMP:20261017T204345Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:مهلت: مهلت ثبت‌نام و انتخاب رشته سرا
  سری دانشگاه‌ها (بدون آزمون) تا تاریخ ۱۴۰
  ۵/۰۷/۲۶ تمدید شده است
-URL:https://hamcalas.github.io/letsa/d/2026-10-16/
+URL:https://letsa.ir/d/2026-10-16/
 END:VEVENT
 BEGIN:VEVENT
-UID:49ada990c832112e773a@hamcalas.github.io
-DTSTAMP:20261017T194751Z
+UID:49ada990c832112e773a@letsa.ir
+DTSTAMP:20261017T204345Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:مهلت: مهلت انتخاب رشته پذیرش بدون آزم
  ون سراسری تا ۲۶ مهرماه ادامه دارد
-URL:https://hamcalas.github.io/letsa/d/2026-10-13/
+URL:https://letsa.ir/d/2026-10-13/
 END:VEVENT
 BEGIN:VEVENT
-UID:c2f84e89d0b6c45608cc@hamcalas.github.io
-DTSTAMP:20261017T194751Z
+UID:c2f84e89d0b6c45608cc@letsa.ir
+DTSTAMP:20261017T204345Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:مهلت: مهلت بارگذاری مدارک برای رتبه‌
  بندی معلمان حداکثر تا ۲۹ مهر می‌باشد
-URL:https://hamcalas.github.io/letsa/d/2026-10-16/
+URL:https://letsa.ir/d/2026-10-16/
 END:VEVENT
 BEGIN:VEVENT
-UID:64b7440a7dc43c305f72@hamcalas.github.io
-DTSTAMP:20261017T194751Z
+UID:64b7440a7dc43c305f72@letsa.ir
+DTSTAMP:20261017T204345Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:مهلت: مهلت ثبت‌نام و تشکیل انجمن اول
  یا و مربیان تا پایان روز ۱۰ آبان است
-URL:https://hamcalas.github.io/letsa/d/2026-10-16/
+URL:https://letsa.ir/d/2026-10-16/
 END:VEVENT
 BEGIN:VEVENT
-UID:94228213d8c69349e120@hamcalas.github.io
-DTSTAMP:20261017T194751Z
+UID:94228213d8c69349e120@letsa.ir
+DTSTAMP:20261017T204345Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:مهلت: ثبت‌نام آزمون تبدیل وضعیت استخ
@@ -87,6 +87,6 @@ SUMMARY:مهلت: ثبت‌نام آزمون تبدیل وضعیت استخ
  اریخ ۱۶ مهرماه تا ۲۵ مهرماه ۱۴۰۵ از طریق 
  سامانه hrtc.ir انجام می‌شود و زمان برگزاری 
  آزمون ۱۳ آذرماه ۱۴۰۵ است
-URL:https://hamcalas.github.io/letsa/d/2026-10-12/
+URL:https://letsa.ir/d/2026-10-12/
 END:VEVENT
 END:VCALENDAR
