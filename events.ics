@@ -8,7 +8,7 @@ X-WR-CALNAME:لتسا؛ خلاصه‌ی روزانه‌ی اطلاعیه‌
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
 UID:d52d3266087aeed1bdb9@letsa.ir
-DTSTAMP:20261020T180756Z
+DTSTAMP:20261021T180526Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:مهلت: طبق بخشنامه مورخ ۱۴۰۵/۰۷/۲۲، ام
@@ -19,7 +19,7 @@ URL:https://letsa.ir/d/2026-10-14/
 END:VEVENT
 BEGIN:VEVENT
 UID:de31bf1eb3dcd89ac838@letsa.ir
-DTSTAMP:20261020T180756Z
+DTSTAMP:20261021T180526Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:مهلت: درخواست انتقالی مدارس نمونه دو
@@ -32,7 +32,7 @@ URL:https://letsa.ir/d/2026-10-17/
 END:VEVENT
 BEGIN:VEVENT
 UID:6fc51aa5045d2867c612@letsa.ir
-DTSTAMP:20261020T180756Z
+DTSTAMP:20261021T180526Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:مهلت: آزمون تبدیل وضعیت استخدامی (پیم
@@ -43,7 +43,7 @@ URL:https://letsa.ir/d/2026-10-12/
 END:VEVENT
 BEGIN:VEVENT
 UID:83279d32757a4a46a356@letsa.ir
-DTSTAMP:20261020T180756Z
+DTSTAMP:20261021T180526Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:مهلت: مهلت ثبت‌نام و انتخاب رشته در ر
@@ -56,7 +56,7 @@ URL:https://letsa.ir/d/2026-10-16/
 END:VEVENT
 BEGIN:VEVENT
 UID:3600a8e9270e21d6bb33@letsa.ir
-DTSTAMP:20261020T180756Z
+DTSTAMP:20261021T180526Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:مهلت: مهلت ثبت‌نام و انتخاب رشته پذی
@@ -68,7 +68,7 @@ URL:https://letsa.ir/d/2026-10-13/
 END:VEVENT
 BEGIN:VEVENT
 UID:7fccdd2d567e34dead6c@letsa.ir
-DTSTAMP:20261020T180756Z
+DTSTAMP:20261021T180526Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:مهلت: مهلت ثبت نمرات ارزشیابی دوره تا
@@ -76,8 +76,17 @@ SUMMARY:مهلت: مهلت ثبت نمرات ارزشیابی دوره تا
 URL:https://letsa.ir/d/2026-10-11/
 END:VEVENT
 BEGIN:VEVENT
+UID:82cec5109bae26adc07d@letsa.ir
+DTSTAMP:20261021T180526Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:مهلت: باید تا تاریخ مقرر (۲۹ مهر) تصوی
+ ر بارگذاری شود
+URL:https://letsa.ir/d/2026-10-21/
+END:VEVENT
+BEGIN:VEVENT
 UID:aab5c68f9229be0b1d09@letsa.ir
-DTSTAMP:20261020T180756Z
+DTSTAMP:20261021T180526Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:مهلت: آخرین مهلت ثبت نهایی درخواست رت
@@ -86,8 +95,26 @@ SUMMARY:مهلت: آخرین مهلت ثبت نهایی درخواست رت
 URL:https://letsa.ir/d/2026-10-15/
 END:VEVENT
 BEGIN:VEVENT
+UID:a422b8a023d87660711f@letsa.ir
+DTSTAMP:20261021T180526Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:مهلت: بارگذاری تصویر تمام دانش‌آموز
+ ان در سامانه سیدا
+URL:https://letsa.ir/d/2026-10-21/
+END:VEVENT
+BEGIN:VEVENT
+UID:68bfa8025e5c4e06b263@letsa.ir
+DTSTAMP:20261021T180526Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:امتحان: ثبت نمرات پودمانی شایستگی در
+ وس واحد یادگیری تغییر رشته
+URL:https://letsa.ir/d/2026-10-21/
+END:VEVENT
+BEGIN:VEVENT
 UID:cfa7302fad7e03b13889@letsa.ir
-DTSTAMP:20261020T180756Z
+DTSTAMP:20261021T180526Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:مهلت: حقوق مهر ماه فرهنگیان از عصر رو
@@ -96,8 +123,29 @@ SUMMARY:مهلت: حقوق مهر ماه فرهنگیان از عصر رو
 URL:https://letsa.ir/d/2026-10-20/
 END:VEVENT
 BEGIN:VEVENT
+UID:1f07fb3cfb9053e74c02@letsa.ir
+DTSTAMP:20261021T180526Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:مهلت: بارگذاری عکس کارنامه متوسطه
+URL:https://letsa.ir/d/2026-10-21/
+END:VEVENT
+BEGIN:VEVENT
+UID:b4ed65f49e195d58a97c@letsa.ir
+DTSTAMP:20261021T180526Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:مهلت: ثبت اطلاعات مشمولین استمرار خد
+ مت، بازنشستگی و متقاضیان بند «ج» ماده ۸۸ 
+ برنامه توسعه هفتم پیشرفت برای نیروهای دا
+ رای بیش از ۳۰ سال سابقه و رتبه استادیار م
+ علم و بالاتر، از تاریخ ۱۴۰۵/۰۸/۰۹ لغایت ۱
+ ۴۰۵/۰۸/۲۰ در پروفایل شخصی…
+URL:https://letsa.ir/d/2026-10-21/
+END:VEVENT
+BEGIN:VEVENT
 UID:b383fc8b51c904590787@letsa.ir
-DTSTAMP:20261020T180756Z
+DTSTAMP:20261021T180526Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:مهلت: مهلت برگزاری یا ثبت فرآیند مربو
@@ -106,8 +154,44 @@ SUMMARY:مهلت: مهلت برگزاری یا ثبت فرآیند مربو
 URL:https://letsa.ir/d/2026-10-16/
 END:VEVENT
 BEGIN:VEVENT
+UID:520599ea9fa7ad94738b@letsa.ir
+DTSTAMP:20261021T180526Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:مهلت: ثبت اطلاعات مشمولین استمرار خد
+ مت، بازنشستگی و متقاضیان بند «ج» ماده ۸۸ 
+ برنامه توسعه هفتم پیشرفت برای نیروهای دا
+ رای بیش از ۳۰ سال سابقه و رتبه استادیار م
+ علم و بالاتر، از تاریخ ۱۴۰۵/۰۸/۰۹ لغایت ۱
+ ۴۰۵/۰۸/۲۰ در پروفایل شخصی…
+URL:https://letsa.ir/d/2026-10-21/
+END:VEVENT
+BEGIN:VEVENT
+UID:4976f68533f291a6bcee@letsa.ir
+DTSTAMP:20261021T180526Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:مهلت: تأیید مناطق برای ثبت اطلاعات مش
+ مولین استمرار خدمت، بازنشستگی و متقاضیا
+ ن بند «ج» ماده ۸۸ برنامه توسعه هفتم
+URL:https://letsa.ir/d/2026-10-21/
+END:VEVENT
+BEGIN:VEVENT
+UID:d6287c58e36c2e6dd0f2@letsa.ir
+DTSTAMP:20261021T180526Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:مهلت: ثبت اطلاعات مشمولین استمرار خد
+ مت، بازنشستگی و متقاضیان بند «ج» ماده ۸۸ 
+ برنامه توسعه هفتم پیشرفت برای نیروهای دا
+ رای بیش از ۳۰ سال سابقه و رتبه استادیار م
+ علم و بالاتر، از تاریخ ۱۴۰۵/۰۸/۰۹ لغایت ۱
+ ۴۰۵/۰۸/۲۰ در پروفایل شخصی…
+URL:https://letsa.ir/d/2026-10-21/
+END:VEVENT
+BEGIN:VEVENT
 UID:8a5a0d5d1414abdb63e8@letsa.ir
-DTSTAMP:20261020T180756Z
+DTSTAMP:20261021T180526Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:امتحان: آزمون در تاریخ ۱۳ آذرماه ۱۴۰۵
