@@ -42,13 +42,13 @@
     var s = d.createElement('script'); s.src = P + '/school-summary.js'; s.onload = function () { ok(new w.SchoolSummary(location.origin + P)); }; d.head.appendChild(s); }); }
   function card(r) { var ts = (r.topics || []).slice(0, 2).map(function (t) { return '<em>' + esc(t) + '</em>'; }).join('');
     return '<a class="rc" href="' + P + '/d/' + r.date + '/"><span class="rt"><b>' + esc(r.date_fa || r.date) + '</b><small>' + esc((r.excerpt || '').slice(0, 140)) + '</small>' + ts + '</span></a>'; }
-  function show(html) { so.querySelector('.sr').innerHTML = html; }
+  function show(html) { so.querySelector('.srs').innerHTML = html; }
   function closeSearch(fromPop) { if (!so) return; so.remove(); so = null; d.documentElement.style.overflow = '';
     if (!fromPop && history.state && history.state.so) history.back(); }
   function openSearch() {
     if (so) return;
     so = d.createElement('div'); so.className = 'so'; so.setAttribute('role', 'dialog'); so.setAttribute('aria-label', 'جستجو');
-    so.innerHTML = '<div class="sp"><div class="sb"><input type="search" placeholder="جستجو در همه‌ی خلاصه‌ها… (مثلاً امتحان)" aria-label="جستجو" enterkeyhint="search" autocomplete="off"><button type="button" class="ib" aria-label="بستن">✕</button></div><div class="sr"><p class="mut">در حال بارگذاری…</p></div></div>';
+    so.innerHTML = '<div class="sp"><div class="sb"><input type="search" placeholder="جستجو در همه‌ی خلاصه‌ها… (مثلاً امتحان)" aria-label="جستجو" enterkeyhint="search" autocomplete="off"><button type="button" class="ib" aria-label="بستن">✕</button></div><div class="srs"><p class="mut">در حال بارگذاری…</p></div></div>';
     d.body.appendChild(so); d.documentElement.style.overflow = 'hidden'; history.pushState({ so: 1 }, '');
     var inp = so.querySelector('input'); inp.focus();
     so.querySelector('.ib').onclick = function () { closeSearch(); };
