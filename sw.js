@@ -1,4 +1,4 @@
-const V='ss-202610271815-23',P="/";
+const V='ss-202610281820-24',P="/";
 self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll([P,P+'archive/',P+'events/',P+'offline.html',P+'my.js',P+'theme.js',P+'install.js',P+'ui.js']).catch(()=>{})).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',e=>{
