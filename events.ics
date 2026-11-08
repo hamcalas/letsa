@@ -7,51 +7,8 @@ X-WR-CALNAME:لتسا؛ خلاصه‌ی روزانه‌ی اطلاعیه‌
  ها و بخشنامه‌های آموزشی
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
-UID:c7c387b9e1fdbf145001@letsa.ir
-DTSTAMP:20261107T210855Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:مهلت: مهلت اجرای آزمون‌های غربالگری 
- و استعدادیابی تا تاریخ ۱۴۰۵/۰۸/۱۰ تمدید ش
- د
-URL:https://letsa.ir/d/2026-10-30/
-END:VEVENT
-BEGIN:VEVENT
-UID:789950db2fb0d5dc0ecf@letsa.ir
-DTSTAMP:20261107T210855Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:مهلت: تحویل مدارک تبدیل وضعیت استخدا
- می: همکاران آموزشی جذب‌شده از طریق آزمون
-  استخدامی پیمانی ماده ۲۸ سال ۱۴۰۰، حداکث
- ر تا پایان وقت اداری روز یکشنبه ۱۴۰۵/۰۸/۱
- ۰ مهلت دارند مدارک خود (شامل نتیجه قبولی،
-  فرم اطلاعات فردی، دو قطعه…
-URL:https://letsa.ir/d/2026-10-27/
-END:VEVENT
-BEGIN:VEVENT
-UID:16157072419cc916ce20@letsa.ir
-DTSTAMP:20261107T210855Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:مهلت: مهلت ثبت‌نام مهارت‌آموزی ورزش
- ی (پایه‌های هفتم، هشتم و نهم متوسطه اول) 
- در سامانه تا ۱۰ آبان‌ماه است
-URL:https://letsa.ir/d/2026-10-25/
-END:VEVENT
-BEGIN:VEVENT
-UID:b383fc8b51c904590787@letsa.ir
-DTSTAMP:20261107T210855Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:مهلت: مهلت برگزاری یا ثبت فرآیند مربو
- ط به انتخابات انجمن اولیاء و مربیان مدار
- س تا پایان روز ۱۰ آبان‌ماه تعیین شده است
-URL:https://letsa.ir/d/2026-10-16/
-END:VEVENT
-BEGIN:VEVENT
 UID:e9649606ced49fa381ee@letsa.ir
-DTSTAMP:20261107T210855Z
+DTSTAMP:20261108T212215Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:مهلت: مهلت پیش‌ثبت‌نام پایه دهم (اول
@@ -60,7 +17,7 @@ URL:https://letsa.ir/d/2026-11-02/
 END:VEVENT
 BEGIN:VEVENT
 UID:07f7c762ed277b3ac9a0@letsa.ir
-DTSTAMP:20261107T210855Z
+DTSTAMP:20261108T212215Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:مهلت: مهلت پیش‌ثبت‌نام با اولویت (ب) 
@@ -69,7 +26,7 @@ URL:https://letsa.ir/d/2026-10-26/
 END:VEVENT
 BEGIN:VEVENT
 UID:520599ea9fa7ad94738b@letsa.ir
-DTSTAMP:20261107T210855Z
+DTSTAMP:20261108T212215Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:مهلت: ثبت اطلاعات مشمولین استمرار خد
@@ -82,7 +39,7 @@ URL:https://letsa.ir/d/2026-10-21/
 END:VEVENT
 BEGIN:VEVENT
 UID:4976f68533f291a6bcee@letsa.ir
-DTSTAMP:20261107T210855Z
+DTSTAMP:20261108T212215Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:مهلت: تأیید مناطق برای ثبت اطلاعات مش
@@ -92,7 +49,7 @@ URL:https://letsa.ir/d/2026-10-21/
 END:VEVENT
 BEGIN:VEVENT
 UID:d6287c58e36c2e6dd0f2@letsa.ir
-DTSTAMP:20261107T210855Z
+DTSTAMP:20261108T212215Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:مهلت: ثبت اطلاعات مشمولین استمرار خد
@@ -105,7 +62,7 @@ URL:https://letsa.ir/d/2026-10-21/
 END:VEVENT
 BEGIN:VEVENT
 UID:8a5a0d5d1414abdb63e8@letsa.ir
-DTSTAMP:20261107T210855Z
+DTSTAMP:20261108T212215Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:امتحان: آزمون در تاریخ ۱۳ آذرماه ۱۴۰۵
