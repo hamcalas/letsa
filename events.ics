@@ -8,7 +8,7 @@ X-WR-CALNAME:لتسا؛ خلاصه‌ی روزانه‌ی اطلاعیه‌
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
 UID:e9649606ced49fa381ee@letsa.ir
-DTSTAMP:20261109T211638Z
+DTSTAMP:20261109T212700Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:مهلت: مهلت پیش‌ثبت‌نام پایه دهم (اول
@@ -17,7 +17,7 @@ URL:https://letsa.ir/d/2026-11-02/
 END:VEVENT
 BEGIN:VEVENT
 UID:07f7c762ed277b3ac9a0@letsa.ir
-DTSTAMP:20261109T211638Z
+DTSTAMP:20261109T212700Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:مهلت: مهلت پیش‌ثبت‌نام با اولویت (ب) 
@@ -26,7 +26,7 @@ URL:https://letsa.ir/d/2026-10-26/
 END:VEVENT
 BEGIN:VEVENT
 UID:520599ea9fa7ad94738b@letsa.ir
-DTSTAMP:20261109T211638Z
+DTSTAMP:20261109T212700Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:مهلت: ثبت اطلاعات مشمولین استمرار خد
@@ -39,7 +39,7 @@ URL:https://letsa.ir/d/2026-10-21/
 END:VEVENT
 BEGIN:VEVENT
 UID:4976f68533f291a6bcee@letsa.ir
-DTSTAMP:20261109T211638Z
+DTSTAMP:20261109T212700Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:مهلت: تأیید مناطق برای ثبت اطلاعات مش
@@ -48,19 +48,26 @@ SUMMARY:مهلت: تأیید مناطق برای ثبت اطلاعات مش
 URL:https://letsa.ir/d/2026-10-21/
 END:VEVENT
 BEGIN:VEVENT
-UID:c1b3b47d627a5f49aa9d@letsa.ir
-DTSTAMP:20261109T211638Z
+UID:17000bd51493d4bd039f@letsa.ir
+DTSTAMP:20261109T212700Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
-SUMMARY:جلسه: فرصت بارگذاری عکس و مستندات مدر
- سین آموزش خانواده و صورت‌جلسات در سامان
- ه مای‌مدیو (بخش انجمن اولیا و مربیان) تا 
- دوشنبه ۱۸ آبان ۱۴۰۵ است
+SUMMARY:مهلت: مهلت بارگذاری مستندات انجمن او
+ لیا و مربیان تا ۱۴۰۵/۸/۱۸ است
+URL:https://letsa.ir/d/2026-11-08/
+END:VEVENT
+BEGIN:VEVENT
+UID:eed484258ed3b909c36a@letsa.ir
+DTSTAMP:20261109T212700Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:مهلت: تمدید مهلت تا ۲۰ آبان برای موار
+ د مربوط به هنرستان‌های فنی و کاردانش
 URL:https://letsa.ir/d/2026-11-08/
 END:VEVENT
 BEGIN:VEVENT
 UID:d6287c58e36c2e6dd0f2@letsa.ir
-DTSTAMP:20261109T211638Z
+DTSTAMP:20261109T212700Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:مهلت: ثبت اطلاعات مشمولین استمرار خد
@@ -73,7 +80,7 @@ URL:https://letsa.ir/d/2026-10-21/
 END:VEVENT
 BEGIN:VEVENT
 UID:8a5a0d5d1414abdb63e8@letsa.ir
-DTSTAMP:20261109T211638Z
+DTSTAMP:20261109T212700Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:امتحان: آزمون در تاریخ ۱۳ آذرماه ۱۴۰۵
@@ -81,14 +88,5 @@ SUMMARY:امتحان: آزمون در تاریخ ۱۳ آذرماه ۱۴۰۵
  انگین نمره سه نفر اول در هر شغل-شهرستان ا
  ست
 URL:https://letsa.ir/d/2026-10-12/
-END:VEVENT
-BEGIN:VEVENT
-UID:c35523f5340b402696f9@letsa.ir
-DTSTAMP:20261109T211638Z
-DTSTART;VALUE=DATE:20270105
-DTEND;VALUE=DATE:20270106
-SUMMARY:مهلت: مهلت ثبت‌نام اولویت «ب» پایه د
- هم
-URL:https://letsa.ir/d/2026-11-09/
 END:VEVENT
 END:VCALENDAR
