@@ -8,7 +8,7 @@ X-WR-CALNAME:لتسا؛ خلاصه‌ی روزانه‌ی اطلاعیه‌
 X-WR-TIMEZONE:Asia/Tehran
 BEGIN:VEVENT
 UID:e9649606ced49fa381ee@letsa.ir
-DTSTAMP:20261109T215309Z
+DTSTAMP:20261109T220537Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:مهلت: مهلت پیش‌ثبت‌نام پایه دهم (اول
@@ -17,7 +17,7 @@ URL:https://letsa.ir/d/2026-11-02/
 END:VEVENT
 BEGIN:VEVENT
 UID:07f7c762ed277b3ac9a0@letsa.ir
-DTSTAMP:20261109T215309Z
+DTSTAMP:20261109T220537Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:مهلت: مهلت پیش‌ثبت‌نام با اولویت (ب) 
@@ -26,7 +26,7 @@ URL:https://letsa.ir/d/2026-10-26/
 END:VEVENT
 BEGIN:VEVENT
 UID:520599ea9fa7ad94738b@letsa.ir
-DTSTAMP:20261109T215309Z
+DTSTAMP:20261109T220537Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:مهلت: ثبت اطلاعات مشمولین استمرار خد
@@ -39,7 +39,7 @@ URL:https://letsa.ir/d/2026-10-21/
 END:VEVENT
 BEGIN:VEVENT
 UID:4976f68533f291a6bcee@letsa.ir
-DTSTAMP:20261109T215309Z
+DTSTAMP:20261109T220537Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:مهلت: تأیید مناطق برای ثبت اطلاعات مش
@@ -48,21 +48,18 @@ SUMMARY:مهلت: تأیید مناطق برای ثبت اطلاعات مش
 URL:https://letsa.ir/d/2026-10-21/
 END:VEVENT
 BEGIN:VEVENT
-UID:26fce3968a4c492cf509@letsa.ir
-DTSTAMP:20261109T215309Z
+UID:543b0b2951946db92c31@letsa.ir
+DTSTAMP:20261109T220537Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
-SUMMARY:مهلت: دستورالعمل شیوه ثبت‌نام دانش‌
- آموزان فاقد هویت ایرانی در پایه هفتم (مور
- خ ۱۴۰۵/۰۸/۱۸): ابتدا ثبت «مجوز فاقد سابقه 
- سیدا» از مسیر مای‌مدیو، سها، سیدا، عملی
- ات اولیه، عملیات پیش‌ثبت‌نام، مجوزهای 
- ثبت‌نام انجام و به تأیید…
+SUMMARY:مهلت: اطلاعیه ثبت‌نام دانش‌آموزان ف
+ اقد هویت ایرانی (پایه هفتم) منتشر شده در ت
+ اریخ ۱۴۰۵/۰۸/۱۸
 URL:https://letsa.ir/d/2026-11-09/
 END:VEVENT
 BEGIN:VEVENT
 UID:eba0591ef72086ae8c72@letsa.ir
-DTSTAMP:20261109T215309Z
+DTSTAMP:20261109T220537Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:مهلت: مهلت بارگذاری مدارک انجمن اولی
@@ -75,7 +72,7 @@ URL:https://letsa.ir/d/2026-11-08/
 END:VEVENT
 BEGIN:VEVENT
 UID:d6287c58e36c2e6dd0f2@letsa.ir
-DTSTAMP:20261109T215309Z
+DTSTAMP:20261109T220537Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:مهلت: ثبت اطلاعات مشمولین استمرار خد
@@ -88,7 +85,7 @@ URL:https://letsa.ir/d/2026-10-21/
 END:VEVENT
 BEGIN:VEVENT
 UID:85153ecc9021799dc6f8@letsa.ir
-DTSTAMP:20261109T215309Z
+DTSTAMP:20261109T220537Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:مهلت: تمدید مهلت بارگذاری مدارک انجم
@@ -97,7 +94,7 @@ URL:https://letsa.ir/d/2026-11-08/
 END:VEVENT
 BEGIN:VEVENT
 UID:8a5a0d5d1414abdb63e8@letsa.ir
-DTSTAMP:20261109T215309Z
+DTSTAMP:20261109T220537Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:امتحان: آزمون در تاریخ ۱۳ آذرماه ۱۴۰۵
